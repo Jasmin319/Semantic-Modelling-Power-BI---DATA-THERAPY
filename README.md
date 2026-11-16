@@ -49,16 +49,9 @@ These articles explain why more data and AI do not automatically lead to better 
 
 ## 📄 License & Usage
 
-This repository is licensed under the MIT License.
+Unless otherwise noted, the original documentation and other original content in this repository are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
 
-You are free to use, modify, and share the files, prompts, and workflows.
-
-Created by Jasmin Simader
-
-If you use this work, attribution is appreciated:
-- Link to this repository  
-- Mention the original source  
-- Credit the author  
+You may share and adapt the licensed material, provided you credit Jasmin Simader, link to the license, and indicate if changes were made. Third-party material is excluded unless explicitly stated otherwise.
 
 ---
 
