@@ -47,7 +47,7 @@ These articles explain why more data and AI do not automatically lead to better 
 - [Deutsch | Semantische Modelle als Grundlage für bessere Entscheidungen](<docs/articles/Semantische Modelle als Grundlage für bessere Entscheidungen .pdf>)
 - [English | Semantic Models as the Foundation for Better Decisions](docs/articles/Semantic%20Models%20as%20the%20Foundation%20for%20Better%20Decisions.pdf)
 
-  ## 📄 License & Usage
+## 📄 License & Usage
 
 This repository is licensed under the MIT License.
 
