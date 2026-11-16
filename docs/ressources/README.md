@@ -46,6 +46,7 @@ flowchart TD
 | --- | --- | --- |
 | [**Decision Mapping Canvas**](01_decision_design/decision_mapping_canvas/README.md) | **Why** is information needed, who decides, and what action could follow? | A shared decision context, including ownership, timing, action options, trigger metrics, thresholds, and risks. |
 | [**Dashboard Canvas**](02_requirements_stakeholder/dashboard_canvas/README.md) | **What** must a particular dashboard answer and provide for its users? | Defined business questions, required KPIs, analysis paths, data needs, responsibilities, and success criteria. |
+| [**KPI Definition Sheet**](03_semantic_modelling/kpi_definition/README.md) | **What does a specific KPI mean, and how is it defined?** | An agreed business definition, scope, calculation, ownership, and validation approach. |
 | **Semantic Modeling Guideline** | **How** can business meaning and metrics be implemented consistently in Power BI? | Guidance for modeling, measures, metadata, governance, validation, and reviews. See the guideline in the repository's `docs` area. |
 
 ## Which resource should I use?

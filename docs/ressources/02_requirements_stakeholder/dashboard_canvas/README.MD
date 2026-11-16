@@ -50,7 +50,7 @@ It helps establish **what the dashboard is for, what is out of scope, and what i
 6. Agree on **responsibilities and success criteria**.
 7. Review open assumptions with business and technical stakeholders **before** designing visualizations or implementing measures.
 
-For decisions that require deeper analysis of owners, timing, action options, trigger metrics, signals, and risks, use the [Decision Mapping Canvas](../../01-decision-design/decision-mapping-canvas/README.md) as a complementary tool. You do not need to duplicate every answer in both templates.
+For decisions that require deeper analysis of owners, timing, action options, trigger metrics, signals, and risks, use the [Decision Mapping Canvas](../../01_decision_design/decision_mapping_canvas/README.md) as a complementary tool. You do not need to duplicate every answer in both templates.
 
 ## Expected output
 
@@ -62,7 +62,7 @@ The canvas does **not** replace a detailed KPI definition, data contract, semant
 
 | Resource | Role |
 | --- | --- |
-| [**Decision Mapping Canvas**](../../01-decision-design/decision-mapping-canvas/README.md) | Explores **which decision should be improved**, by whom, when, and through what action. |
+| [**Decision Mapping Canvas**](../../01_decision_design/decision_mapping_canvas/README.md) | Explores **which decision should be improved**, by whom, when, and through what action. |
 | **Dashboard Canvas** | Defines **what a specific dashboard needs to provide** to support its intended users. |
 | **Semantic Modeling Guideline** | Guides the **consistent and reliable implementation** of business meaning, measures, relationships, and metadata in Power BI. |
 

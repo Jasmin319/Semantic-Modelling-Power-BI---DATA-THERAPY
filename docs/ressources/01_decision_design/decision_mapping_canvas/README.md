@@ -45,7 +45,7 @@ Use it to make the link between **business decisions, information needs, and act
 3. Determine which metric genuinely influences that decision. Distinguish the decisive measure from supporting context measures.
 4. Agree on meaningful signals and thresholds **with the relevant business owners**. Avoid assuming that a threshold is valid simply because it is technically easy to calculate.
 5. Record the intended actions, relevant limitations, and open questions.
-6. Transfer the resulting information needs to the [Dashboard Canvas](../../02-requirements/dashboard-canvas/README.md), if a dashboard or report is the intended solution.
+6. Transfer the resulting information needs to the [Dashboard Canvas](../../02_requirements_stakeholder/dashboard_canvas/README.md), if a dashboard or report is the intended solution.
 
 ## Expected output
 
