@@ -69,6 +69,8 @@ Add the Decision Mapping Canvas PDF to this folder and link it here, for example
 
 [Deutsch | Download the Decision Mapping Canvas](https://github.com/Jasmin319/Semantic-Modelling-Power-BI---DATA-THERAPY/blob/main/docs/ressources/01_decision_design/decision_mapping_canvas/Decison%20Mapping%20Canvas_DE.png)
 
+[English | Download the Decision Mapping Canvas](https://github.com/Jasmin319/Semantic-Modelling-Power-BI---DATA-THERAPY/blob/main/docs/ressources/01_decision_design/decision_mapping_canvas/Decison%20Mapping%20Canvas_EN.png)
+
 > The link above is an example only. Replace it with the actual PDF filename after adding the file.
 
 ## 🔗 Related content
