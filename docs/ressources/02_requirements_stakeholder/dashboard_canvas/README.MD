@@ -1,3 +1,7 @@
+![Banner](https://github.com/Jasmin319/Semantic-Modelling-Power-BI---DATA-THERAPY/blob/main/Brand%20Assets/Banner.png)
+
+![Microsoft MVP](https://img.shields.io/badge/Microsoft-MVP-5E5E5E)
+
 # Dashboard Canvas
 
 **Turn business questions into clear dashboard requirements.**
@@ -79,3 +83,10 @@ Add the PDF to this folder and link it here, for example:
 **Data Therapy · Jasmin Simader**
 
 All rights reserved unless otherwise specified. Check the repository's licensing information before reusing or redistributing the template.
+
+## 🔗 Related content
+
+🎥 YouTube: [Power BI with AI Vibes](https://www.youtube.com/@BIVibes-JasminSimader)  
+🏠 Website: [Jasmin Simader](https://www.jasminsimader.com/)  
+👩🏻‍💻 LinkedIn: [Jasmin Simader](https://www.linkedin.com/in/jasmin-simader)  
+📝 Blog / Substack: [Substack](https://substack.com/@datatherapywithjasmin)
