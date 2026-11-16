@@ -46,6 +46,19 @@ These articles explain why more data and AI do not automatically lead to better 
 - [Deutsch | Semantische Modelle als Grundlage für bessere Entscheidungen](<docs/articles/Semantische Modelle als Grundlage für bessere Entscheidungen .pdf>)
 - [English | Semantic Models as the Foundation for Better Decisions](docs/articles/Semantic%20Models%20as%20the%20Foundation%20for%20Better%20Decisions.pdf)
 
+## Explore the resources
+
+The [Practical Resources & Templates](docs/ressources/README.md) overview explains how these materials fit together and helps you choose where to start. Browse the resource folders for practical canvases, documentation templates, and review tools that complement the guideline:
+
+| Resource folder | What you will find |
+| --- | --- |
+| [Decision design](docs/ressources/01_decision_design/) | The Decision Mapping Canvas for clarifying which business decision needs support, who owns it, and what action may follow. |
+| [Requirements & stakeholders](docs/ressources/02_requirements_stakeholder/) | The Dashboard Canvas for capturing dashboard users, business questions, KPIs, data needs, and responsibilities. |
+| [Semantic modelling](docs/ressources/03_semantic_modelling/) | KPI definition and semantic model specification templates, plus table and measure documentation and a metadata description guide. See the [folder overview](docs/ressources/03_semantic_modelling/README.md). |
+| [Validation](docs/ressources/04_validation/) | The Semantic Model Review Checklist for recording model quality checks, evidence, findings, exceptions, and release readiness. |
+
+The resource overviews describe each tool in more detail and link to available English and German versions.
+
 
 ## 📄 License & Usage
 
