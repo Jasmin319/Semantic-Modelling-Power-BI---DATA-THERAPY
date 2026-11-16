@@ -59,8 +59,8 @@ The templates document requirements and design; filling them in does not by itse
 | --- | --- |
 | [Decision Mapping Canvas](../01_decision_design/decision_mapping_canvas/README.md) | Clarifies which decision or action the information should support. |
 | [Dashboard Canvas](../02_requirements_stakeholder/dashboard_canvas/README.MD) | Describes the requirements of a specific dashboard or report. |
-| **KPI Definition Sheet** | Establishes the agreed meaning of a specific KPI. |
-| **Semantic Model Specification** | Describes the model-wide design and its assumptions and constraints. |
+| [KPI Definition Sheet](kpi_definition/README.md) | Establishes the agreed meaning of a specific KPI. |
+| [Semantic Model Specification](semantic_model_specification/README.md) | Describes the model-wide design and its assumptions and constraints. |
 | [Table Documentation](table_documentation/README.md) | Records a table's role, grain, relationships, and limitations. |
 | [Measure Documentation](measure_documentation/README.md) | Records a measure's implementation, filter behavior, and validation. |
 | [Metadata Description Guide](metadata_description_guide/README.md) | Supports concise, factual model-object descriptions. |
