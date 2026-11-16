@@ -1,4 +1,4 @@
-![Banner]([https://raw.githubusercontent.com/Jasmin319/Power-BI-Vibes/main/Z-Assets/Banner.png](https://github.com/Jasmin319/Semantic-Modelling-Power-BI---DATA-THERAPY/blob/main/Brand%20Assets/Banner.png))
+![Banner](Brand Assets/Banner.png)
 
 ![Microsoft MVP](https://img.shields.io/badge/Microsoft-MVP-5E5E5E)
 
