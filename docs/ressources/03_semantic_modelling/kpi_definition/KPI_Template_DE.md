@@ -2,7 +2,7 @@
 
 **Bedeutung vor Berechnung. Verantwortung vor Veröffentlichung.**
 
-> **Hinweis:** Diese Vorlage basiert auf Kapitel 15.1 „Bedeutungsblatt für eine zentrale Kennzahl“ der Guideline *Semantische Modellierung in Power BI*, Version 0.1 (Entwurf), 07.11.2026. Leere Felder sind bewusst auszufüllen oder als „nicht zutreffend“ zu kennzeichnen. Es handelt sich nicht um eine bereits freigegebene KPI-Definition.
+> **Hinweis:** Diese Vorlage basiert auf Kapitel 15.1 „Bedeutungsblatt für eine zentrale Kennzahl“ der Guideline *Semantische Modellierung in Power BI*, Version 0.1 (Entwurf), 11.11.2026. Leere Felder sind bewusst auszufüllen oder als „nicht zutreffend“ zu kennzeichnen. Es handelt sich nicht um eine bereits freigegebene KPI-Definition.
 
 ## 1. Fachliche KPI-Definition
 

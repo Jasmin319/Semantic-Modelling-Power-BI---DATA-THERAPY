@@ -6,7 +6,7 @@
 
 **Define business meaning before implementing a measure.**
 
-The **KPI Definition Sheet** is a practical template for documenting a business-critical key performance indicator (KPI) or other important business measure. It is based on **Section 15.1, “Bedeutungsblatt für eine zentrale Kennzahl,”** of the *Power BI Semantic Modeling Guideline*, Version 0.1 (Draft), November 7, 2026.
+The **KPI Definition Sheet** is a practical template for documenting a business-critical key performance indicator (KPI) or other important business measure. It is based on **Section 15.1, “Bedeutungsblatt für eine zentrale Kennzahl,”** of the *Power BI Semantic Modeling Guideline*, Version 0.1 (Draft), November 11, 2026.
 
 Its guiding principle is:
 

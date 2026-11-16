@@ -76,7 +76,7 @@ This is a **relationship map**, not a mandatory waterfall process. A shared sema
 
 ## Alignment with the guideline
 
-This template draws from the *Semantic Modeling in Power BI* guideline, **Version 0.1 (Draft), November 7, 2026**, especially **SEM-001–SEM-005**, **DOC-001/002**, the model design chapters, **Section 12 (Review)**, **Section 14 (Definition of Done)**, and **Section 15 (Practical templates)**.
+This template draws from the *Semantic Modeling in Power BI* guideline, **Version 0.1 (Draft), November 11, 2026**, especially **SEM-001–SEM-005**, **DOC-001/002**, the model design chapters, **Section 12 (Quality assurance and approval)**, **Section 14 (Definition of done)**, and **Section 15 (Templates for practical use)**.
 
 The specification is an **additional practical resource**, not an existing prescribed form within the guideline. The guideline's MUST/SHOULD/MAY labels are proposed classifications pending formal organizational approval.
 

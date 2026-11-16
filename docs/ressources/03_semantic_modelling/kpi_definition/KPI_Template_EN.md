@@ -2,7 +2,7 @@
 
 **Business meaning before calculation. Ownership before publication.**
 
-> **Note:** This template is based on Section 15.1, “Definition Sheet for a Key Business Measure,” of the *Power BI Semantic Modeling Guideline*, Version 0.1 (Draft), November 7, 2026. Complete all blank fields or mark them as “not applicable.” This is a template, not an already approved KPI definition.
+> **Note:** This template is based on Section 15.1, “Meaning sheet for a key metric,” of the *Power BI Semantic Modeling Guideline*, Version 0.1 (Draft), November 11, 2026. Complete all blank fields or mark them as “not applicable.” This is a template, not an already approved KPI definition.
 
 ## 1. Business KPI definition
 

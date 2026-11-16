@@ -2,7 +2,7 @@
 
 **Von fachlichen Anforderungen zum verlässlichen semantischen Modell**
 
-> Arbeitsvorlage auf Basis der *Guideline Semantische Modellierung in Power BI*, Version 0.1 (Entwurf), 07.11.2026. Diese Spezifikation ersetzt keine fachliche Freigabe oder technische Prüfung.
+> Arbeitsvorlage auf Basis der *Guideline Semantische Modellierung in Power BI*, Version 0.1 (Entwurf), 11.11.2026. Diese Spezifikation ersetzt keine fachliche Freigabe oder technische Prüfung.
 
 **Ausfüllhinweis:** `[Platzhalter]` ersetzen; unbekannte Angaben als **Offen**, nicht relevante als **Nicht zutreffend** kennzeichnen. Zwischen **geplant**, **implementiert** und **validiert** unterscheiden.
 

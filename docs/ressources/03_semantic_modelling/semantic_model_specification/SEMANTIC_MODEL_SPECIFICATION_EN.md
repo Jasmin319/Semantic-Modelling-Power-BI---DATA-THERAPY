@@ -2,7 +2,7 @@
 
 **From Business Requirements to a Reliable Semantic Model**
 
-> Working template based on *Semantic Modeling in Power BI*, Version 0.1 (Draft), November 7, 2026. This specification is not a substitute for business approval or technical review.
+> Working template based on *Semantic Modeling in Power BI*, Version 0.1 (Draft), November 11, 2026. This specification is not a substitute for business approval or technical review.
 
 **How to use:** Replace `[placeholders]`; mark unknown details **Open** and irrelevant items **Not applicable**. Distinguish **planned**, **implemented**, and **validated** information.
 
