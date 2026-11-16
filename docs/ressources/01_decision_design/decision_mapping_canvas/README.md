@@ -58,7 +58,7 @@ The canvas helps **clarify requirements**. It does not itself approve KPI defini
 | Resource | Role |
 | --- | --- |
 | **Decision Mapping Canvas** | Clarifies **why** information is needed and **what decision or action** it should support. |
-| [**Dashboard Canvas**](../../02-requirements/dashboard-canvas/README.md) | Describes **what a specific dashboard must answer and provide** for its users. |
+| [**Dashboard Canvas**](https://github.com/Jasmin319/Semantic-Modelling-Power-BI---DATA-THERAPY/tree/main/docs/ressources/02_requirements_stakeholder/dashboard_canvas) | Describes **what a specific dashboard must answer and provide** for its users. |
 | **Semantic Modeling Guideline** | Guides **how business definitions and metrics are modeled, documented, tested, and governed** in Power BI. |
 
 The Decision Mapping Canvas and Dashboard Canvas are complementary, **not mandatory sequential gates**. A semantic model may serve several decisions and several reports.
