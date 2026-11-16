@@ -47,12 +47,12 @@ This table maps each resource to its reference in the [English guideline](../gui
 | Resource | Guideline reference | Main output | Type |
 | --- | --- | --- | --- |
 | [Decision Mapping Canvas](01_decision_design/decision_mapping_canvas/README.md) | SEM-001 | Decision context | Additional supporting resource |
-| [Dashboard Canvas](02_requirements_stakeholder/dashboard_canvas/README.md) | SEM-001 to SEM-005 | Business and analysis requirements | Additional supporting resource |
+| [Dashboard Canvas](02_requirements_stakeholder/dashboard_canvas/README.MD) | SEM-001 to SEM-005 | Business and analysis requirements | Additional supporting resource |
 | [KPI Definition Sheet](03_semantic_modelling/kpi_definition/README.md) | 15.1, DOC-002 | Agreed KPI meaning | Additional supporting resource |
 | [Semantic Model Specification](03_semantic_modelling/semantic_model_specification/README.md) | DOC-001 | Model design specification | Additional supporting resource |
-| Table Documentation | 15.2 | Table-level documentation | Guideline content |
-| Measure Documentation | 15.3 | Measure-level documentation | Guideline content |
-| Metadata Description Guide | 15.4, DOC-003 | Short model-object descriptions | Guideline content |
+| [Table Documentation](03_semantic_modelling/table_documentation/README.md) | 15.2 | Table-level documentation | Guideline content |
+| [Measure Documentation](03_semantic_modelling/measure_documentation/README.md) | 15.3 | Measure-level documentation | Guideline content |
+| [Metadata Description Guide](03_semantic_modelling/metadata_description_guide/README.md) | 15.4, DOC-003 | Short model-object descriptions | Guideline content |
 | [Semantic Model Review Checklist](04_validation/semantic_model_review_checklist/README.md) | Chapter 12 | Review evidence and findings | Additional supporting resource |
 
 ## Which resource should I use?

@@ -56,15 +56,17 @@ These ten areas reflect the guideline's Section 15.1. The template also provides
 
 6. **Maintain the definition.** Record changes, effective dates and who accepted the update.
 
-For dashboard-specific information requirements, see the [Dashboard Canvas](../../02_requirements_stakeholder/dashboard_canvas/README.md).
+For dashboard-specific information requirements, see the [Dashboard Canvas](../../02_requirements_stakeholder/dashboard_canvas/README.MD).
 
 ## Relationship to the other resources
 
 | Resource | Role |
 | --- | --- |
 | [**Decision Mapping Canvas**](../../01_decision_design/decision_mapping_canvas/README.md) | Clarifies why a measure matters for a decision or action. |
-| [**Dashboard Canvas**](../../02_requirements_stakeholder/dashboard_canvas/README.md) | Clarifies which KPIs and analysis capabilities a dashboard needs. |
+| [**Dashboard Canvas**](../../02_requirements_stakeholder/dashboard_canvas/README.MD) | Clarifies which KPIs and analysis capabilities a dashboard needs. |
 | **KPI Definition Sheet** | Establishes the business meaning and agreed calculation of a specific KPI. |
+| [**Measure Documentation**](../measure_documentation/README.md) | Records the technical implementation and validation of a measure. |
+| [**Metadata Description Guide**](../metadata_description_guide/README.md) | Helps summarize confirmed meaning in a model-object description. |
 | **Semantic Modeling Guideline** | Explains how the KPI is implemented, documented, tested and maintained in Power BI. |
 
 One KPI can support several business questions and several reports. **Do not create competing definitions for the same business concept.** Reference an agreed KPI where possible.
@@ -74,6 +76,14 @@ One KPI can support several business questions and several reports. **Do not cre
 This resource is a **working template**, not an automatically approved KPI standard or a substitute for business sign-off. Some fields may be marked *not applicable* when they do not affect interpretation. An unresolved definition must remain visibly open rather than being silently assumed.
 
 The Semantic Modeling Guideline is currently **Version 0.1 (Draft)**. Its MUST/SHOULD/MAY classifications are proposed standards, not automatically binding organizational requirements.
+
+## Changelog
+
+- **2026-11-16:** Added links to measure documentation and the metadata description guide in this README.
+
+## 📄 License & Usage
+
+Unless otherwise noted, the original documentation and other original content in this repository are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](../../../../LICENSE). Third-party material is excluded unless explicitly stated otherwise.
 
 ---
 

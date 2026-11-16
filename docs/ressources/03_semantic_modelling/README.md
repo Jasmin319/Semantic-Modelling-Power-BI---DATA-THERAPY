@@ -6,7 +6,7 @@
 
 **Connect agreed business definitions to a documented semantic model design.**
 
-The resources in this folder help teams agree on the meaning of individual KPIs and describe how a semantic model is intended to meet its business and technical requirements. They complement the [Power BI Semantic Modeling Guideline](../../guidelines/Guideline_Semantic_Modelling_Power_BI.pdf).
+The resources in this folder help teams define KPIs, specify model designs, document tables and measures, and write concise metadata descriptions. They complement the [Power BI Semantic Modeling Guideline](../../guidelines/Guideline_Semantic_Modelling_Power_BI.pdf).
 
 Their guiding principle is:
 
@@ -14,21 +14,26 @@ Their guiding principle is:
 
 ## Purpose
 
-A KPI definition and a model design answer different questions. The **KPI Definition Sheet** makes the meaning, scope, calculation, ownership, and validation of a specific measure explicit. The **Semantic Model Specification** records the model-wide design, assumptions, and open decisions.
+A KPI definition, a model design, detailed object documentation, and short model descriptions answer different questions. Together, they connect business meaning to model design and implementation without replacing one another.
 
-These are practical supporting templates, not additional mandatory standards. The guideline is currently a draft.
+These are practical supporting resources, not additional mandatory standards. The guideline is currently a draft.
 
-## The two resources
+## Resources
 
 | Resource | What it helps clarify |
 | --- | --- |
 | [**KPI Definition Sheet**](kpi_definition/README.md) | What does a specific KPI mean, where does it apply, how is it calculated, and how will it be validated? |
 | [**Semantic Model Specification**](semantic_model_specification/README.md) | How should the semantic model meet its business and technical requirements, and how will its design be validated? |
+| [**Table Documentation**](table_documentation/README.md) | What does a table contain, what does one row represent, and how is it related to other tables? |
+| [**Measure Documentation**](measure_documentation/README.md) | How is a measure implemented, filtered, and validated? |
+| [**Metadata Description Guide**](metadata_description_guide/README.md) | How can confirmed object meaning be summarized in a concise model description? |
 
 ## When to use them
 
 - Use the **KPI Definition Sheet** when a measure's business meaning, scope, calculation, owner, or validation needs agreement.
 - Use the **Semantic Model Specification** to record or review the design of a semantic model, including its context, sources, structure, security, operations, and risks.
+- Use **Table Documentation** and **Measure Documentation** when detailed information about a table or measure needs to be recorded and reviewed.
+- Use the **Metadata Description Guide** to write concise model-object descriptions based on confirmed information.
 - Use both when a model implements agreed KPIs and the relationship between business definitions and model design needs to remain traceable.
 
 ## Suggested workflow
@@ -37,13 +42,14 @@ These are practical supporting templates, not additional mandatory standards. Th
 2. Agree on the meaning and validation of each relevant KPI with its business owner.
 3. Record the model-wide design and reference the agreed KPI definitions rather than duplicating them.
 4. Implement and review the model using the [Semantic Modeling Guideline](../../guidelines/Guideline_Semantic_Modelling_Power_BI.pdf).
-5. Update the documents when business definitions, sources, or model design decisions change.
+5. Document relevant tables and measures, and write concise descriptions from confirmed information.
+6. Update the documents when business definitions, sources, or model design decisions change.
 
 These are suggested activities, not compulsory sequential approval steps. Keep assumptions and unresolved decisions clearly identified.
 
 ## Expected output
 
-An agreed description of important KPI meanings and a reviewable specification of the semantic model's intended design, constraints, validation, and open decisions.
+Agreed KPI definitions, a reviewable model specification, relevant table and measure documentation, and concise descriptions of model objects.
 
 The templates document requirements and design; filling them in does not by itself validate an implementation or constitute production approval.
 
@@ -55,17 +61,27 @@ The templates document requirements and design; filling them in does not by itse
 | [Dashboard Canvas](../02_requirements_stakeholder/dashboard_canvas/README.MD) | Describes the requirements of a specific dashboard or report. |
 | **KPI Definition Sheet** | Establishes the agreed meaning of a specific KPI. |
 | **Semantic Model Specification** | Describes the model-wide design and its assumptions and constraints. |
+| [Table Documentation](table_documentation/README.md) | Records a table's role, grain, relationships, and limitations. |
+| [Measure Documentation](measure_documentation/README.md) | Records a measure's implementation, filter behavior, and validation. |
+| [Metadata Description Guide](metadata_description_guide/README.md) | Supports concise, factual model-object descriptions. |
 | [Semantic Model Review Checklist](../04_validation/semantic_model_review_checklist/README.md) | Records review evidence, findings, and readiness checks. |
 | [Semantic Modeling Guideline](../../guidelines/Guideline_Semantic_Modelling_Power_BI.pdf) | Guides modeling, documentation, validation, and review in Power BI. |
 
 ## Templates
 
-Create a copy of the appropriate language template for each KPI or semantic model:
+Choose the appropriate language version for each resource:
 
 - **KPI Definition Sheet:** [English](kpi_definition/KPI_Template_EN.md) · [Deutsch](kpi_definition/KPI_Template_DE.md)
 - **Semantic Model Specification:** [English](semantic_model_specification/SEMANTIC_MODEL_SPECIFICATION_EN.md) · [Deutsch](semantic_model_specification/SEMANTIC_MODEL_SPECIFICATION_DE.md)
+- **Table Documentation:** [English](table_documentation/TABLE_DOCUMENTATION_EN.md) · [Deutsch](table_documentation/TABLE_DOCUMENTATION_DE.md)
+- **Measure Documentation:** [English](measure_documentation/MEASURE_DOCUMENTATION_EN.md) · [Deutsch](measure_documentation/MEASURE_DOCUMENTATION_DE.md)
+- **Metadata Description Guide:** [English](metadata_description_guide/METADATA_DESCRIPTION_GUIDE_EN.md) · [Deutsch](metadata_description_guide/METADATA_DESCRIPTION_GUIDE_DE.md)
 
-See each resource's [overview](kpi_definition/README.md) or [specification overview](semantic_model_specification/README.md) for further guidance.
+See the individual resource overviews for further guidance.
+
+## Changelog
+
+- **2026-11-16:** Updated this overview to include table documentation, measure documentation, and the metadata description guide.
 
 ## Author and usage
 

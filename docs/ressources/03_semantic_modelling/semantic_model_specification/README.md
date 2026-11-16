@@ -69,9 +69,12 @@ This is a **relationship map**, not a mandatory waterfall process. A shared sema
 | Artifact | Responsibility |
 | --- | --- |
 | [Decision Mapping Canvas](../../01_decision_design/decision_mapping_canvas/README.md) | Clarifies the decision context and intended actions. |
-| [Dashboard Canvas](../../02_requirements_stakeholder/dashboard_canvas/README.md) | Clarifies requirements of a specific dashboard or report. |
+| [Dashboard Canvas](../../02_requirements_stakeholder/dashboard_canvas/README.MD) | Clarifies requirements of a specific dashboard or report. |
 | [KPI Definition Sheet](../kpi_definition/README.md) | Establishes business meaning, calculation, owner and validation of a KPI. |
 | **Semantic Model Specification** | Describes the model-wide solution design and its assumptions and constraints. |
+| [Table Documentation](../table_documentation/README.md) | Records details of individual tables, including grain and relationships. |
+| [Measure Documentation](../measure_documentation/README.md) | Records measure implementations and their validation. |
+| [Metadata Description Guide](../metadata_description_guide/README.md) | Helps write concise descriptions of model objects. |
 | **Semantic Modeling Guideline** | Defines proposed modeling, documentation and review rules. |
 
 ## Alignment with the guideline
@@ -85,6 +88,14 @@ The specification is an **additional practical resource**, not an existing presc
 `Draft` · `In review` · `Agreed design` · `Implemented` · `Validated` · `Superseded`
 
 Status applies to the document or design, **not automatically to production release approval**.
+
+## Changelog
+
+- **2026-11-16:** Added links to table documentation, measure documentation, and the metadata description guide in this README.
+
+## 📄 License & Usage
+
+Unless otherwise noted, the original documentation and other original content in this repository are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](../../../../LICENSE). Third-party material is excluded unless explicitly stated otherwise.
 
 ---
 
