@@ -20,8 +20,8 @@ Use the checklist to record **business and technical checks**, supporting eviden
 
 ## Download the templates
 
-- [Deutsch | Semantic Model Review Checklist](SEMANTIC_MODEL_REVIEW_CHECKLIST_DE.md)
-- [English | Semantic Model Review Checklist](SEMANTIC_MODEL_REVIEW_CHECKLIST_EN.md)
+- [Deutsch | Semantic Model Review Checklist](semantic_model_review_checklist_de.md)
+- [English | Semantic Model Review Checklist](semantic_model_review_checklist_en.md)
 
 Copy a template for each model review and fill in the review metadata, status and evidence. The templates are intentionally unapproved and all checks start as `Open`.
 

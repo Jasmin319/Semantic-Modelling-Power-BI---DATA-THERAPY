@@ -1,0 +1,68 @@
+// DAX Query View example for a hypothetical sales model.
+// Assumptions (MUST be verified): FactSales has one row per order line;
+// FactSales[OrderID] identifies an order, FactSales[NetAmount] is the agreed
+// revenue input, DimRegion is the related region dimension, and 'Date'[Date]
+// is a suitable, validated date column.
+// The /// lines directly above MEASURE are candidate model Descriptions.
+// Save via "Update model with changes"; simply running the query does NOT save them.
+
+DEFINE
+    /// Illustrative sum of the approved line-level net amount, in the current filter context.
+    /// Add confirmed currency, exclusions and comparability limits before production use.
+    MEASURE '_Measures'[Revenue] =
+        SUM ( FactSales[NetAmount] )
+
+    /// Arithmetic average net amount per fact row (assumed order line).
+    /// Not the same as an average order value.
+    MEASURE '_Measures'[Average Line Amount] =
+        AVERAGE ( FactSales[NetAmount] )
+
+    /// Number of distinct order identifiers in the current filter context.
+    /// Business exclusions and behavior for missing OrderID values require validation.
+    MEASURE '_Measures'[Order Count] =
+        DISTINCTCOUNT ( FactSales[OrderID] )
+
+    /// Illustrative revenue per distinct order in the current filter context.
+    /// Returns BLANK if the order count is zero or BLANK.
+    MEASURE '_Measures'[Average Order Value] =
+        DIVIDE ( [Revenue], [Order Count] )
+
+    /// Revenue with filters from the DimRegion table removed.
+    /// Other applicable filters and row-level security remain in effect.
+    MEASURE '_Measures'[Revenue All Regions] =
+        // Intentionally remove only the region dimension filters.
+        CALCULATE (
+            [Revenue],
+            REMOVEFILTERS ( DimRegion )
+        )
+
+    /// Revenue in the comparable prior-year date period.
+    /// Requires an approved calendar and validated date relationships.
+    MEASURE '_Measures'[Revenue PY] =
+        CALCULATE (
+            [Revenue],
+            SAMEPERIODLASTYEAR ( 'Date'[Date] )
+        )
+
+    /// Relative change against the corresponding prior-year revenue.
+    /// Returns BLANK when the comparison denominator is zero or BLANK.
+    MEASURE '_Measures'[Revenue vs PY %] =
+        VAR CurrentRevenue = [Revenue]
+        VAR PreviousYearRevenue = [Revenue PY]
+        // Never silently replace a missing comparison base with zero.
+        RETURN
+            DIVIDE (
+                CurrentRevenue - PreviousYearRevenue,
+                PreviousYearRevenue
+            )
+
+EVALUATE
+    ROW (
+        "Revenue", [Revenue],
+        "Average Line Amount", [Average Line Amount],
+        "Order Count", [Order Count],
+        "Average Order Value", [Average Order Value],
+        "Revenue All Regions", [Revenue All Regions],
+        "Revenue PY", [Revenue PY],
+        "Revenue vs PY %", [Revenue vs PY %]
+    )

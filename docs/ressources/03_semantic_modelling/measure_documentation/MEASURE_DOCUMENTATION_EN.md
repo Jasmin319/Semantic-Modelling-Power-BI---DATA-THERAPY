@@ -4,11 +4,13 @@
 
 > Where a KPI Definition Sheet exists, it is the source for the approved business meaning. This document describes the measure's specific implementation. Mark unconfirmed facts as `[Open]`.
 
+Use business-oriented measure names. Make averages, ratios, time comparisons, and material special filter contexts clear in the name where needed; document the actual calculation method separately rather than encoding DAX implementation details in the name.
+
 ## 1. Meaning and implementation
 
 | Section 15.3 field | Entry |
 | --- | --- |
-| Measure name | `[Power BI name]` |
+| Measure name | `[Business-oriented Power BI name; identify an average, ratio, time comparison, or special filter context where needed]` |
 | Business definition | `[Brief meaning or link to confirmed KPI Definition Sheet]` |
 | Business-approved synonyms by language/culture | `[Equivalent terms only; record language/culture and business confirmation]` |
 | Ambiguities / deliberately excluded terms | `[Conflicts, differing definitions, or mappings that must not be used]` |
@@ -22,10 +24,14 @@
 | Filter context modifications | `[ALL, REMOVEFILTERS, USERELATIONSHIP, etc., only where actually used; purpose]` |
 | Unit | `[EUR / % / units / other]` |
 | Format | `[Format string / dynamic format / rounding]` |
-| Aggregation behavior | `[Additive / semi-additive / non-additive; total vs detail]` |
+| Calculation / aggregation method | `[SUM / AVERAGE / DISTINCTCOUNT / weighted average / ratio / other; describe the actual method]` |
+| Aggregation behavior | `[Additive / semi-additive / non-additive; explain total vs detail behavior]` |
+| Filter context behavior | `[Standard, ignores region filters, ignores date filters, or other effective behavior]` |
 | Exceptions, limitations and pitfalls | `[Blanks, zero denominators, edge cases and interpretation limits]` |
 | Business owner | `[Role / confirming person]` |
 | Validation | `[Comparison method / trusted values / test evidence link]` |
+
+Aggregation behavior describes how results roll up, not which DAX function is used. An additive measure does not necessarily use `SUM()`, and a ratio implemented with `DIVIDE()` is typically non-additive; document the actual method and the roll-up behavior separately.
 
 ### DAX
 

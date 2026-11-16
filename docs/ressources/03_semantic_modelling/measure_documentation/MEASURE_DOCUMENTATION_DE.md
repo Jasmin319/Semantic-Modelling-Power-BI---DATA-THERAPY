@@ -4,11 +4,13 @@
 
 > Die fachliche KPI-Definition wird, sofern vorhanden, im [KPI-Steckbrief](../kpi_definition/README.md) verantwortet. Hier wird ihre konkrete Implementierung dokumentiert. Nicht bestätigte Aussagen als `[Offen]` markieren.
 
+Measures sollten fachlich orientiert benannt werden. Durchschnittswerte, Quoten, Zeitvergleiche und wesentliche besondere Filterkontexte sollten bei Bedarf aus dem Namen hervorgehen. Die tatsächliche Berechnungsmethode wird separat dokumentiert, statt technische DAX-Details in den Namen aufzunehmen.
+
 ## 1. Bedeutung und Implementierung
 
 | Feld aus Kapitel 15.3 | Eintrag |
 | --- | --- |
-| Measure-Name | `[Name in Power BI]` |
+| Measure-Name | `[Fachlich orientierter Power-BI-Name; Durchschnitt, Quote, Zeitvergleich oder besonderen Filterkontext bei Bedarf kenntlich machen]` |
 | Fachliche Definition | `[Kurzdefinition oder Link zum bestätigten KPI-Steckbrief]` |
 | Fachlich bestätigte Synonyme je Sprache/Culture | `[Nur gleichbedeutende Begriffe; Sprache/Culture und fachliche Bestätigung]` |
 | Mehrdeutigkeiten / bewusst ausgeschlossene Begriffe | `[Konflikte, abweichende Definitionen oder nicht zulässige Zuordnungen]` |
@@ -22,10 +24,14 @@
 | Filterkontextänderungen | `[ALL, REMOVEFILTERS, USERELATIONSHIP usw., soweit tatsächlich verwendet; Zweck]` |
 | Einheit | `[EUR / % / Stück / andere]` |
 | Format | `[Formatstring / dynamisches Format / Rundung]` |
-| Aggregationsverhalten | `[Additiv / semi-additiv / nicht additiv; Summen- und Detailverhalten]` |
+| Berechnungs- / Aggregationsmethode | `[SUM / AVERAGE / DISTINCTCOUNT / gewichteter Durchschnitt / Quote / andere; tatsächliche Methode beschreiben]` |
+| Aggregationsverhalten | `[Additiv / semi-additiv / nicht additiv; Verhalten bei Summen und Detailwerten erläutern]` |
+| Filterkontextverhalten | `[Standard, ignoriert Regionsfilter, ignoriert Datumsfilter oder anderes wirksames Verhalten]` |
 | Ausnahmen, Grenzen, Fallstricke | `[Nullwerte, Division durch null, Sondersituationen, Interpretationsgrenzen]` |
 | Fachlicher Owner | `[Rolle / bestätigende Person]` |
 | Validierung | `[Abgleichmethode / Referenzwerte / Link auf Testnachweis]` |
+
+Das Aggregationsverhalten beschreibt, wie Ergebnisse über Gruppen hinweg zusammengefasst werden, nicht welche DAX-Funktion verwendet wird. Ein additives Measure muss nicht `SUM()` verwenden; eine mit `DIVIDE()` implementierte Quote ist typischerweise nicht additiv. Dokumentieren Sie daher die tatsächliche Methode und das Aggregationsverhalten getrennt.
 
 ### DAX
 

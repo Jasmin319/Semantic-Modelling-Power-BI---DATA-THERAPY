@@ -70,8 +70,8 @@ The two canvases can be used separately or together. A reusable semantic model m
 
 ## Canvas
 
-- [Deutsch | Dashboard Canvas herunterladen (PNG)](./Dashboard%20Canvas%20DE.png)
-- [English | Download the Dashboard Canvas (PNG)](./Dashboard%20Canvas%20EN.png)
+- [Deutsch | Dashboard Canvas herunterladen (PNG)](./dashboard%20canvas%20de.png)
+- [English | Download the Dashboard Canvas (PNG)](./dashboard%20canvas%20en.png)
 
 ## Changelog
 

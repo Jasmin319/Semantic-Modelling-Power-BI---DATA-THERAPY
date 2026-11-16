@@ -20,8 +20,8 @@ It is suitable for KPI discussions, semantic model design, reviews, and change m
 
 ## Download the template
 
-- [Deutsch | KPI-Steckbrief (Markdown)](KPI_Template_DE.md)
-- [English | KPI Definition Sheet (Markdown)](KPI_Template_EN.md)
+- [Deutsch | KPI-Steckbrief (Markdown)](kpi_template_de.md)
+- [English | KPI Definition Sheet (Markdown)](kpi_template_en.md)
 
 Open the template and copy it for each KPI. Replace the placeholders with agreed, verifiable information.
 
@@ -56,14 +56,14 @@ These ten areas reflect the guideline's Section 15.1. The template also provides
 
 6. **Maintain the definition.** Record changes, effective dates and who accepted the update.
 
-For dashboard-specific information requirements, see the [Dashboard Canvas](../../02_requirements_stakeholder/dashboard_canvas/README.md).
+For dashboard-specific information requirements, see the [Dashboard Canvas](../../02_requirements_stakeholder/dashboard_canvas/README.MD).
 
 ## Relationship to the other resources
 
 | Resource | Role |
 | --- | --- |
 | [**Decision Mapping Canvas**](../../01_decision_design/decision_mapping_canvas/README.md) | Clarifies why a measure matters for a decision or action. |
-| [**Dashboard Canvas**](../../02_requirements_stakeholder/dashboard_canvas/README.md) | Clarifies which KPIs and analysis capabilities a dashboard needs. |
+| [**Dashboard Canvas**](../../02_requirements_stakeholder/dashboard_canvas/README.MD) | Clarifies which KPIs and analysis capabilities a dashboard needs. |
 | **KPI Definition Sheet** | Establishes the business meaning and agreed calculation of a specific KPI. |
 | **Semantic Modeling Guideline** | Explains how the KPI is implemented, documented, tested and maintained in Power BI. |
 

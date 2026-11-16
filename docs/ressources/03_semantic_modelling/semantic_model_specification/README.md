@@ -18,8 +18,8 @@ It supports both planning and maintenance. Record planned requirements first, th
 
 ## Templates
 
-- [Deutsch | Semantic-Model-Spezifikation](SEMANTIC_MODEL_SPECIFICATION_DE.md)
-- [English | Semantic Model Specification](SEMANTIC_MODEL_SPECIFICATION_EN.md)
+- [Deutsch | Semantic-Model-Spezifikation](semantic_model_specification_de.md)
+- [English | Semantic Model Specification](semantic_model_specification_en.md)
 
 Create a separate copy for each semantic model. Mark details as **open**, **not applicable**, or **confirmed** rather than guessing.
 
@@ -69,7 +69,7 @@ This is a **relationship map**, not a mandatory waterfall process. A shared sema
 | Artifact | Responsibility |
 | --- | --- |
 | [Decision Mapping Canvas](../../01_decision_design/decision_mapping_canvas/README.md) | Clarifies the decision context and intended actions. |
-| [Dashboard Canvas](../../02_requirements_stakeholder/dashboard_canvas/README.md) | Clarifies requirements of a specific dashboard or report. |
+| [Dashboard Canvas](../../02_requirements_stakeholder/dashboard_canvas/README.MD) | Clarifies requirements of a specific dashboard or report. |
 | [KPI Definition Sheet](../kpi_definition/README.md) | Establishes business meaning, calculation, owner and validation of a KPI. |
 | **Semantic Model Specification** | Describes the model-wide solution design and its assumptions and constraints. |
 | **Semantic Modeling Guideline** | Defines proposed modeling, documentation and review rules. |

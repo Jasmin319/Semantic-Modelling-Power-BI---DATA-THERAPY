@@ -71,11 +71,11 @@ The templates document requirements and design; filling them in does not by itse
 
 Choose the appropriate language version for each resource:
 
-- **KPI Definition Sheet:** [English](kpi_definition/KPI_Template_EN.md) · [Deutsch](kpi_definition/KPI_Template_DE.md)
-- **Semantic Model Specification:** [English](semantic_model_specification/SEMANTIC_MODEL_SPECIFICATION_EN.md) · [Deutsch](semantic_model_specification/SEMANTIC_MODEL_SPECIFICATION_DE.md)
-- **Table Documentation:** [English](table_documentation/TABLE_DOCUMENTATION_EN.md) · [Deutsch](table_documentation/TABLE_DOCUMENTATION_DE.md)
-- **Measure Documentation:** [English](measure_documentation/MEASURE_DOCUMENTATION_EN.md) · [Deutsch](measure_documentation/MEASURE_DOCUMENTATION_DE.md)
-- **Metadata Description Guide:** [English](metadata_description_guide/METADATA_DESCRIPTION_GUIDE_EN.md) · [Deutsch](metadata_description_guide/METADATA_DESCRIPTION_GUIDE_DE.md)
+- **KPI Definition Sheet:** [English](kpi_definition/kpi_template_en.md) · [Deutsch](kpi_definition/kpi_template_de.md)
+- **Semantic Model Specification:** [English](semantic_model_specification/semantic_model_specification_en.md) · [Deutsch](semantic_model_specification/semantic_model_specification_de.md)
+- **Table Documentation:** [English](table_documentation/table_documentation_en.md) · [Deutsch](table_documentation/table_documentation_de.md)
+- **Measure Documentation:** [English](measure_documentation/measure_documentation_en.md) · [Deutsch](measure_documentation/measure_documentation_de.md)
+- **Metadata Description Guide:** [English](metadata_description_guide/metadata_description_guide_en.md) · [Deutsch](metadata_description_guide/metadata_description_guide_de.md)
 
 See the individual resource overviews for further guidance.
 

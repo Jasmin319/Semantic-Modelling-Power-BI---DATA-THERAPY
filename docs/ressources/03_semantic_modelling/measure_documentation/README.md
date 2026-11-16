@@ -12,18 +12,18 @@ This resource operationalizes **Section 15.3, “Short description of a measure,
 
 ## Templates
 
-- [Deutsch | Measure-Dokumentation](MEASURE_DOCUMENTATION_DE.md)
-- [English | Measure Documentation](MEASURE_DOCUMENTATION_EN.md)
+- [Deutsch | Measure-Dokumentation](measure_documentation_de.md)
+- [English | Measure Documentation](measure_documentation_en.md)
 
 ## What it covers
 
 | Area | Question |
 | --- | --- |
-| Business meaning and decision | What is calculated, and what business purpose does it support? |
+| Business meaning, name and decision | What is calculated, what business purpose does it support, and does its name identify averages, ratios, time comparisons or material special filter contexts? |
 | DAX and brief technical explanation | How is the implemented calculation expressed? |
 | Dependencies | Which measures, tables and columns are used? |
-| Filtering | What is the ordinary filter behavior, and what context is overridden? |
-| Unit and aggregation | Which unit, display format and aggregation logic are valid? |
+| Filtering | What is the ordinary filter behavior, what context is overridden, and what is the effective filter-context behavior? |
+| Unit and aggregation | Which unit and display format apply, what calculation method is used, and how does the result aggregate? |
 | Exceptions and pitfalls | Which edge cases or known limitations affect use? |
 | Ownership and validation | Who confirms meaning and which references/tests support correctness? |
 | Synonym governance | Which confirmed alternative terms apply by language/culture, and when were they last reviewed? |
@@ -41,10 +41,12 @@ One KPI may be implemented through multiple supporting measures; not every techn
 ## Suggested use
 
 1. Link the measure to a confirmed KPI definition or document the relevant business meaning and its owner.
-2. Record the DAX and explain the calculation in plain language.
-3. Identify dependencies, context transitions, fixed filters and aggregation assumptions.
-4. Test totals, segments, edge cases and trusted source/reference values.
-5. Write a short Description from confirmed facts only; do not copy the full DAX into the Description property.
+2. Use a business-oriented name; make averages, ratios, time comparisons and material special filter contexts explicit where needed.
+3. Record the actual calculation method separately from additive, semi-additive or non-additive behavior; a DAX function alone does not determine aggregation behavior.
+4. Record the DAX and explain the calculation in plain language.
+5. Identify dependencies, context transitions, fixed filters and effective filter-context behavior.
+6. Test totals, segments, edge cases and trusted source/reference values.
+7. Write a short Description from confirmed facts only; do not copy the full DAX into the Description property.
 
 ## Related resources
 
@@ -61,6 +63,7 @@ The current published guideline is **Semantic Modeling in Power BI, v0.1 (Draft)
 ## Changelog
 
 - **2026-11-16:** Added business-approved synonyms, language/culture, ambiguity, and review date to the measure template; updated alignment to DOC-010.
+- **2026-11-16:** Added calculation method, aggregation behavior, and filter-context behavior fields to both language templates; clarified business-oriented naming and the distinction between calculation method and roll-up behavior.
 
 ## 📄 License & Usage
 

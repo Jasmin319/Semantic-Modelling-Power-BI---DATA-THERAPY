@@ -12,8 +12,8 @@ This resource turns **Section 15.2, “Short description of a table”**, into a
 
 ## Templates
 
-- [Deutsch | Tabellendokumentation](TABLE_DOCUMENTATION_DE.md)
-- [English | Table Documentation](TABLE_DOCUMENTATION_EN.md)
+- [Deutsch | Tabellendokumentation](table_documentation_de.md)
+- [English | Table Documentation](table_documentation_en.md)
 
 Create one copy per table or maintain the information in an equivalent, centrally controlled catalog. Only document relevant details; mark unknowns as **Open** rather than guessing.
 

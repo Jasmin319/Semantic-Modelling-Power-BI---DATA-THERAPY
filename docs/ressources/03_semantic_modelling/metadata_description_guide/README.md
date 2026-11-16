@@ -12,8 +12,8 @@ This resource makes **Section 15.4, “Description text for model objects,”** 
 
 ## Guides
 
-- [Deutsch | Leitfaden für Description-Texte](METADATA_DESCRIPTION_GUIDE_DE.md)
-- [English | Metadata Description Guide](METADATA_DESCRIPTION_GUIDE_EN.md)
+- [Deutsch | Leitfaden für Description-Texte](metadata_description_guide_de.md)
+- [English | Metadata Description Guide](metadata_description_guide_en.md)
 
 Both guides contain compact sentence structures, clearly **illustrative examples**, synonym-maintenance guidance, anti-patterns, a review checklist, and safe Copilot prompts.
 
