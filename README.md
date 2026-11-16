@@ -53,7 +53,6 @@ Unless otherwise noted, the original documentation and other original content in
 
 You may share and adapt the licensed material, provided you credit Jasmin Simader, link to the license, and indicate if changes were made. Third-party material is excluded unless explicitly stated otherwise.
 
----
 
 ## 🔗 Related content
 
