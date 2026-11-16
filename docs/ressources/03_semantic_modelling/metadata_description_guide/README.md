@@ -6,7 +6,7 @@
 
 **Write clear, concise descriptions for Power BI semantic model objects.**
 
-This resource makes **Section 15.4, “Description text for model objects,”** actionable, together with guideline rules **DOC-003** (short descriptions versus detailed documentation), **DOC-004** (maintaining metadata on model objects), and **DOC-010** (maintaining validated synonyms).
+This resource makes **Section 15.4, “Description text for model objects,”** actionable, together with guideline rules **DOC-003** (short descriptions versus detailed documentation), **DOC-004** (maintaining metadata on model objects), **DOC-010** (maintaining validated synonyms), and **DOC-011** (maintaining measure Descriptions during development).
 
 > **Describe what is known. Do not manufacture business meaning.**
 
@@ -48,13 +48,14 @@ You can ask Copilot to **draft** descriptions using only verified facts supplied
 
 ## Guideline alignment
 
-**Primary source:** Sections **15.3/15.4** and **DOC-003/004/010**. Example scenarios and Copilot prompts in these guides are **supplementary illustrations**, not verbatim material from the guideline.
+**Primary source:** Sections **15.3/15.4** and **DOC-003/004/010/011**. Example scenarios and Copilot prompts in these guides are **supplementary illustrations**, not verbatim material from the guideline.
 
 The current published guideline is **Semantic Modeling in Power BI, v0.1 (Draft), November 16, 2026**. Its rule classifications are proposed; these resources do not turn them into approved organizational requirements.
 
 ## Changelog
 
 - **2026-11-16:** Added linguistic metadata and synonym maintenance guidance, including product-specific validation for Copilot and Fabric data agents.
+- **2026-11-16:** Aligned the Description workflow and rule references with DOC-011 in both language guides.
 
 ## 📄 License & Usage
 

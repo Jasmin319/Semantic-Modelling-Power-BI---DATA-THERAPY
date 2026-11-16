@@ -50,10 +50,13 @@ Link each review point to traceable evidence (test report, screenshot, query, ti
 | --- | --- | --- | --- |
 | R-10 | Business-critical KPIs are explicit measures. | `Open` | `[Link / note]` |
 | R-11 | Reusable base measures are used. | `Open` | `[Link / note]` |
-| R-12 | Divisions, blank values, and aggregation behavior are checked against business meaning. | `Open` | `[Link / note]` |
-| R-13 | Filter-context changes are checked and documented where needed. | `Open` | `[Link / note]` |
-| R-14 | Format, unit, and business descriptions are appropriate. | `Open` | `[Link / note]` |
+| R-12 | The population and denominator of averages are confirmed; calculation method and aggregation behavior are reviewed separately. | `Open` | `[Link / note]` |
+| R-13 | Material filter-scope changes, especially removed filters, are documented and checked at detail and total levels. | `Open` | `[Link / note]` |
+| R-14 | Descriptions, format strings, units, and approved synonyms align with the confirmed definition and DAX. | `Open` | `[Link / note]` |
 | R-15 | Business-critical totals are reconciled at detail and grand-total levels with source data or a business-approved report; repeat after model changes. | `Open` | `[Link / note]` |
+| R-37 | Measure names, comparison suffixes, and display folders are consistent and meaningful; averages and counts identify their basis where needed. | `Open` | `[Link / note]` |
+| R-38 | Relevant DAX expressions are readable and consistently formatted; non-obvious technical choices are commented. | `Open` | `[Link / note]` |
+| R-39 | Descriptions set with `///` in DAX Query View were saved to the model; executing the query alone is not sufficient. | `Open` | `[Link / note]` |
 
 ### Data preparation and operations
 
@@ -81,7 +84,6 @@ Link each review point to traceable evidence (test report, screenshot, query, ti
 | R-34 | Common business alternatives have been reviewed for relevant model objects and maintained as synonyms where useful. | `Open` | `[Link / note]` |
 | R-35 | Existing synonyms are current, unambiguous, and consistent with confirmed metric definitions. | `Open` | `[Link / note]` |
 | R-36 | For models intended for Copilot or data agents, representative natural-language questions using alternative terms have been tested and the expected mapping documented. | `Open` | `[Link / note]` |
-
 ### Text-based development and automation
 
 | ID | Review criterion | Status | Evidence / comment |

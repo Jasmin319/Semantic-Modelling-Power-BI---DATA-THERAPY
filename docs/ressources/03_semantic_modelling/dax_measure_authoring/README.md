@@ -14,7 +14,7 @@ This resource gives practical, reviewable conventions for creating Power BI DAX 
 
 - [Deutsch | DAX Measures schreiben und dokumentieren](dax_measure_authoring_de.md)
 - [English | DAX Measure Authoring Guide](dax_measure_authoring_en.md)
-- [Illustrative DAX Query View example](dax_query_view_example.dax)
+- [DAX Query View example](dax_query_view_example.dax)
 
 ## What you will learn
 
@@ -27,20 +27,22 @@ This resource gives practical, reviewable conventions for creating Power BI DAX 
 | Variables and formatting | Use readable DAX with descriptive `VAR` names and `RETURN` |
 | Code comments | Explain non-obvious choices using `//` or `/* ... */` |
 | Model descriptions | Use the **Description** property; in **DAX Query View**, `///` immediately above `MEASURE` can write it to the model |
-| Metadata beyond DAX | Keep format string, display folder, agreed synonyms and ownership maintained |
+| Metadata beyond DAX | Maintain format strings and display folders; use business-approved synonyms where useful for natural-language query scenarios |
 | Review and tests | Verify totals, aggregation grain, additive behavior, filter context, time intelligence, blanks, format and intended AI-facing behavior |
+
+**Recommendation:** This version gives you a strong foundation for consistent DAX authoring. To keep naming conventions, documentation and review aligned, carry the same criteria into the [Measure Documentation Template](../measure_documentation/README.md) and [Semantic Model Review Checklist](../../04_validation/semantic_model_review_checklist/README.md). Both resources already include matching fields and checks for naming, calculation and aggregation behavior, filter context, Descriptions and validation; keep them synchronized as the guide evolves.
 
 ## Three naming approaches
 
 1. **Business-first, no prefix (recommended):** `Revenue`, `Average Line Amount`, `Average Order Value`, `Revenue PY`, `Revenue vs PY %`, `Gross Margin %`.
 2. **Fully spelled out:** `Revenue Previous Year`, `Revenue Change vs Previous Year %`. Useful for audiences unfamiliar with acronyms, but longer.
-3. **Technical prefixes for all measures:** `m_Revenue`, `KPI_Revenue`. Generally **not recommended for user-facing measures**; consider a prefix only for clearly separate technical formatting measures, as described by the existing `NAM-005` guideline.
+3. **Technical prefixes for all measures:** `m_Revenue`, `KPI_Revenue`. Generally **not recommended for user-facing measures**; consider a prefix only for clearly separate technical formatting measures, as described by `NAM-005/006`.
 
 Choose **one coherent convention per model**. Don't use naming to invent or imply business rules that have not been approved.
 
 ## Naming measures: the calculation matters, but business meaning comes first
 
-| Example name | Illustrative technique | Clarification |
+| Example name | Aggregation | Clarification |
 | --- | --- | --- |
 | `Revenue` | `SUM ( FactSales[NetAmount] )` | The confirmed KPI may be additive; `SUM` does not need to appear in every name. |
 | `Average Line Amount` | `AVERAGE ( FactSales[NetAmount] )` | Average **per line** (not automatically per order). |
@@ -90,7 +92,7 @@ flowchart TD
 
 ## Guideline alignment
 
-**Existing guideline:** `NAM-001`–`NAM-005`, `DAX-001`–`DAX-007`, `DOC-002`–`DOC-004`, Sections 12 and 15.3–15.4. The concrete naming patterns, inline-comment style, and suggested new rule wording in this resource are **proposals**, not automatically approved company rules. The source guideline is *v0.1 (Draft), November 7, 2026*.
+**Guideline alignment:** `NAM-001`–`NAM-006`, `DAX-001`–`DAX-008`, `DOC-002`–`DOC-004`, `DOC-010`–`DOC-011`, and Sections 12 and 15.3–15.4. The concrete naming patterns, inline-comment style, and additional examples in this resource remain **supplementary proposals**, not automatically approved company rules. The source guideline is *v0.1 (Draft), November 16, 2026*.
 
 ## Further reading
 
@@ -105,6 +107,8 @@ flowchart TD
 ## Changelog
 
 - **2026-11-16** — `README.md`: removed a link to the unavailable proposed-guideline-additions file. Existing Semantic Modeling Guideline: v0.1 (Draft).
+- **2026-11-16** — `README.md`, `dax_measure_authoring_de.md`, `dax_measure_authoring_en.md`: aligned rule references, synonym guidance, and the source date with the current v0.1 (Draft) guideline.
+- **2026-11-16** — `README.md`: added a recommendation to keep DAX naming, measure documentation and review criteria aligned.
 
 ## 🔗 Related content
 

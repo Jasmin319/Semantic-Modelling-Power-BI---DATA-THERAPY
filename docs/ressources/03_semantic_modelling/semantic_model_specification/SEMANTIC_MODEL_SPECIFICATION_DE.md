@@ -31,6 +31,8 @@
 **Nicht im Scope:** `[Explizite Grenzen]`  
 **Wichtige Annahmen:** `[Noch zu bestätigende Annahmen]`
 
+**Nutzung für natürlichsprachliche Abfragen (falls zutreffend):** `[Zielprodukt und -umgebung; vorgesehene Fragen]`
+
 ## 3. Datenquellen und Abhängigkeiten
 
 | Datenquelle / Datenprodukt | Inhalt / Verantwortlichkeit | Aktualität / Qualität | Transformation / Abhängigkeit |
@@ -102,6 +104,7 @@
 | `[RLS/OLS im Zielsystem]` | `[Erwartung]` | `[Link / Ergebnis]` | `[Reviewer / Offen]` |
 | `[Refresh und Performance]` | `[Erwartung]` | `[Link / Ergebnis]` | `[Reviewer / Offen]` |
 | `[Abhängige Reports]` | `[Erwartung]` | `[Link / Ergebnis]` | `[Reviewer / Offen]` |
+| `[Natürlichsprachliche Abfragen / erwartete Kennzahlzuordnung, falls zutreffend]` | `[Repräsentative Fragen und erwartete Zuordnung im Zielprodukt]` | `[Link / Ergebnis]` | `[Reviewer / Offen]` |
 
 **Fachliche Bestätigung:** `[Wer, wann, was konkret bestätigt?]`  
 **Technisches Review:** `[Wer, wann, Prüfnachweis]`  

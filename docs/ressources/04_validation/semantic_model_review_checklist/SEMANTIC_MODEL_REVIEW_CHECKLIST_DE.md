@@ -50,10 +50,13 @@ Pro Prüffall einen nachvollziehbaren Nachweis (Link, Testbericht, Screenshot, Q
 | --- | --- | --- | --- |
 | R-10 | Geschäftskritische Kennzahlen sind explizite Measures. | `Open` | `[Link / Hinweis]` |
 | R-11 | Wiederverwendbare Basis-Measures werden genutzt. | `Open` | `[Link / Hinweis]` |
-| R-12 | Divisionen, leere Werte und Aggregationsverhalten sind fachlich geprüft. | `Open` | `[Link / Hinweis]` |
-| R-13 | Änderungen des Filterkontexts sind geprüft und bei Bedarf dokumentiert. | `Open` | `[Link / Hinweis]` |
-| R-14 | Format, Einheit und fachliche Beschreibung sind passend. | `Open` | `[Link / Hinweis]` |
+| R-12 | Grundgesamtheit und Nenner von Durchschnittswerten sind bestätigt; Berechnungsverfahren und Aggregierbarkeit sind getrennt geprüft. | `Open` | `[Link / Hinweis]` |
+| R-13 | Wesentliche Änderungen des Filterumfangs, insbesondere entfernte Filter, sind dokumentiert und auf Detail- und Gesamtebene geprüft. | `Open` | `[Link / Hinweis]` |
+| R-14 | Description, Formatstring, Einheit und bestätigte Synonyme stimmen mit fachlicher Definition und DAX überein. | `Open` | `[Link / Hinweis]` |
 | R-15 | Geschäftskritische Summen sind auf Detail- und Gesamtebene mit der Quelle oder einem fachlich freigegebenen Bericht abgeglichen; nach Modelländerungen erneut prüfen. | `Open` | `[Link / Hinweis]` |
+| R-37 | Measure-Namen, Vergleichssuffixe und Display Folders sind konsistent und verständlich; Durchschnitts- und Zählkennzahlen machen ihre Bezugsgröße bei Bedarf kenntlich. | `Open` | `[Link / Hinweis]` |
+| R-38 | Relevante DAX-Ausdrücke sind verständlich und konsistent formatiert; nicht offensichtliche technische Entscheidungen sind kommentiert. | `Open` | `[Link / Hinweis]` |
+| R-39 | Mit `///` in der DAX Query View gesetzte Descriptions wurden ins Modell übernommen; eine Query-Ausführung allein reicht nicht. | `Open` | `[Link / Hinweis]` |
 
 ### Datenaufbereitung und Betrieb
 
@@ -81,7 +84,6 @@ Pro Prüffall einen nachvollziehbaren Nachweis (Link, Testbericht, Screenshot, Q
 | R-34 | Für relevante Modellobjekte wurden gebräuchliche fachliche Alternativbegriffe geprüft und, soweit sinnvoll, als Synonyme gepflegt. | `Open` | `[Link / Hinweis]` |
 | R-35 | Vorhandene Synonyme sind aktuell, eindeutig und mit den bestätigten Kennzahlendefinitionen vereinbar. | `Open` | `[Link / Hinweis]` |
 | R-36 | Bei für Copilot oder Data Agents vorgesehenen Modellen wurden repräsentative natürlichsprachliche Fragen mit Alternativbegriffen getestet und die erwartete Zuordnung dokumentiert. | `Open` | `[Link / Hinweis]` |
-
 ### Textbasierte Entwicklung und Automatisierung
 
 | ID | Prüfkriterium | Status | Nachweis / Kommentar |

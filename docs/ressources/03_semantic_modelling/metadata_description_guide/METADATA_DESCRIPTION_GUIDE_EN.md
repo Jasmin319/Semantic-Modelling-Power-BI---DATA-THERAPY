@@ -2,7 +2,7 @@
 
 **Clear, business-grounded descriptions for Power BI semantic model objects.**
 
-Based on **Sections 15.3/15.4**, **DOC-003**, **DOC-004** and **DOC-010** of *Semantic Modeling in Power BI*, v0.1 (Draft), November 16, 2026.
+Based on **Sections 15.3/15.4**, **DOC-003**, **DOC-004**, **DOC-010** and **DOC-011** of *Semantic Modeling in Power BI*, v0.1 (Draft), November 16, 2026.
 
 ## 1. Principle
 
@@ -51,6 +51,7 @@ Do not fill every placeholder if the detail is unknown or unnecessary for interp
 - [ ] Uses neutral, concise, complete sentences.
 - [ ] Business claims are confirmed; unresolved items remain open.
 - [ ] Links to detailed documentation where necessary.
+- [ ] After changes, the Description remains consistent with the DAX expression, KPI definition, date reference, filter scope, unit and substantiated limitations.
 
 ## 6. Linguistic metadata and synonym maintenance
 

@@ -6,7 +6,7 @@
 
 **Define business meaning before implementing a measure.**
 
-The **KPI Definition Sheet** is a practical template for documenting a business-critical key performance indicator (KPI) or other important business measure. It is based on **Section 15.1, “Bedeutungsblatt für eine zentrale Kennzahl,”** of the *Power BI Semantic Modeling Guideline*, Version 0.1 (Draft), November 16, 2026.
+The **KPI Definition Sheet** is a practical template for documenting a business-critical key performance indicator (KPI) or other important business measure. It is based on **Section 15.1, “Meaning sheet for a key metric,”** of the *Power BI Semantic Modeling Guideline*, Version 0.1 (Draft), November 16, 2026.
 
 Its guiding principle is:
 
@@ -29,7 +29,7 @@ Open the template and copy it for each KPI. Replace the placeholders with agreed
 
 | Area | What to clarify |
 | --- | --- |
-| Canonical name and approved synonyms | Which business-approved terms, by language/culture, refer to the same KPI? |
+| Canonical name and approved synonyms | Which business-approved terms, by language/culture, refer to the same KPI? Where relevant, who confirmed them, when were they last reviewed, and which ambiguous or excluded terms need attention? |
 | Business definition | What does it mean in the agreed business context? |
 | Scope | Which organizational units, processes, and periods does it cover? |
 | Calculation and unit | How is it calculated and presented? |
@@ -78,6 +78,7 @@ The Semantic Modeling Guideline is currently **Version 0.1 (Draft), November 16,
 ## Changelog
 
 - **2026-11-16:** Aligned the guideline status reference with the current published version.
+- **2026-11-16:** Aligned both templates with Section 15.1 and DOC-010 by adding optional synonym review ownership/date, ambiguity/exclusion tracking, and the current English section title.
 
 ---
 

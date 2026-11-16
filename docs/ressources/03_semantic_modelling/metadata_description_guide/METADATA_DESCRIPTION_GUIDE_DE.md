@@ -2,7 +2,7 @@
 
 **Kurze, fachlich korrekte Metadaten für Power-BI-Semantic-Modelle.**
 
-Grundlage: Kapitel **15.3/15.4** sowie **DOC-003**, **DOC-004** und **DOC-010** der Guideline *Semantische Modellierung in Power BI*, v0.1 (Entwurf), 16.11.2026.
+Grundlage: Kapitel **15.3/15.4** sowie **DOC-003**, **DOC-004**, **DOC-010** und **DOC-011** der Guideline *Semantische Modellierung in Power BI*, v0.1 (Entwurf), 16.11.2026.
 
 ## 1. Grundsatz
 
@@ -51,6 +51,7 @@ Nicht jede Klammer muss ausgefüllt werden. Unbekannte oder nicht benötigte Det
 - [ ] Der Text ist neutral, knapp und in vollständigen Sätzen formuliert.
 - [ ] Jede fachliche Behauptung ist bestätigt oder als offen gekennzeichnet.
 - [ ] Detaildokumentation ist separat verlinkt, wo sie benötigt wird.
+- [ ] Description stimmt bei Änderungen weiterhin mit DAX-Ausdruck, KPI-Definition, Zeitbezug, Filterumfang, Einheit und belegten Einschränkungen überein.
 
 ## 6. Linguistische Metadaten und Synonympflege
 

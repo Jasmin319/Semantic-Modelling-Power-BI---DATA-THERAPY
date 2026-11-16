@@ -6,7 +6,7 @@
 
 ## 1. Namenskonventionen
 
-**Empfohlener Ansatz:** fachlich verständliche Measure-Namen mit Leerzeichen, ohne pauschale Präfixe wie `m_` oder `msr_`. Das entspricht dem Ansatz von `NAM-001` bis `NAM-005`. Sprache und Benennungslogik werden pro Modell abgestimmt.
+**Empfohlener Ansatz:** fachlich verständliche Measure-Namen mit Leerzeichen, ohne pauschale Präfixe wie `m_` oder `msr_`. Das entspricht `NAM-001` bis `NAM-006`. Sprache und Benennungslogik werden pro Modell abgestimmt.
 
 ### Drei Optionen
 
@@ -14,7 +14,7 @@
 | --- | --- | --- |
 | **A. Fachname + konsistenter Suffix (Empfehlung)** | `Revenue`, `Revenue PY`, `Revenue vs PY`, `Revenue vs PY %` | Kurz und gut in Feldlisten lesbar, Abkürzungen müssen definiert sein |
 | **B. Ausgeschriebene Namen** | `Revenue Previous Year`, `Revenue Change vs Previous Year %` | Für nichttechnische Zielgruppen leicht verständlich, längere Namen |
-| **C. Technische Präfixe für alle Measures** | `m_Revenue`, `KPI_Revenue` | Für fachlich sichtbare Measures eher nicht sinnvoll; `NAM-005` empfiehlt solche Präfixe nicht allgemein |
+| **C. Technische Präfixe für alle Measures** | `m_Revenue`, `KPI_Revenue` | Für fachlich sichtbare Measures eher nicht sinnvoll; `NAM-005/006` empfehlen solche Präfixe nicht allgemein |
 
 ### Vorgeschlagene Muster (Option A)
 
@@ -63,7 +63,7 @@ Der Measure-Name soll die **fachliche Bedeutung** beschreiben und Berechnungsunt
 3. **Einheitliche Formatierung:** Funktionsnamen großschreiben, Leerzeichen an Operatoren und Klammern, bei mehreren Argumenten übersichtlich umbrechen.
 4. **Spalten mit Tabelle referenzieren**, zum Beispiel `FactSales[NetAmount]`; Measures in der Regel ohne Tabellenpräfix (`[Revenue]`).
 5. **DIVIDE** bei möglicherweise leerem oder nullwertigem Nenner verwenden; `BLANK()` nicht ungeprüft durch 0 ersetzen (`DAX-003`).
-6. **Filterkontext dokumentieren und testen**, besonders bei `CALCULATE`, `ALL`, `REMOVEFILTERS`, `USERELATIONSHIP` und `TREATAS` (`DAX-005`). `ALL` ist kein Aggregationsverfahren: benenne gezielt entfernte Filter und prüfe Summen und Detailkontexte.
+6. **Filterkontext dokumentieren und testen**, besonders bei `CALCULATE`, `ALL`, `REMOVEFILTERS`, `USERELATIONSHIP` und `TREATAS` (`DAX-005/008`). `ALL` ist kein Aggregationsverfahren: benenne gezielt entfernte Filter und prüfe Summen und Detailkontexte.
 7. **Numerische Measures numerisch lassen** und über FormatString formatieren; `FORMAT()` nicht für die allgemeine Kennzahlenformatierung einsetzen (`DAX-007`).
 8. **Iterationen wie `SUMX` nur bei fachlichem Bedarf** verwenden, nicht als Ersatz für einfache Summen (`DAX-004`).
 
@@ -189,7 +189,7 @@ table _Measures
 - [ ] `//`-Kommentare erklären besondere technische Entscheidungen
 - [ ] FormatString, Datentyp, `%` und Einheiten sind passend
 - [ ] DisplayFolder und Sichtbarkeit sinnvoll; Formatierungs-Measures getrennt
-- [ ] Fachlich bestätigte Synonyme aktuell und eindeutig
+- [ ] Wo für natürlichsprachliche Abfragen sinnvoll: Synonyme fachlich bestätigt, Sprache/Culture berücksichtigt, eindeutig und bei Änderungen erneut geprüft
 - [ ] Summen, Details, Zeiträume, Filterkontexte, BLANK/0 getestet
 - [ ] Änderungen an DAX, Description und Synonymen gemeinsam reviewed
 - [ ] Bei Copilot-/Data-Agent-Nutzung repräsentative natürlichsprachliche Fragen geprüft
@@ -211,6 +211,6 @@ liefere passende fachliche Validierungstests.
 
 ## Herkunft und Abgrenzung
 
-**Aus der bestehenden Guideline:** `NAM-001` bis `NAM-005`, `DAX-001` bis `DAX-007`, `DOC-002` bis `DOC-004`, Kapitel 15.3–15.4. **Ergänzend vorgeschlagen:** konkrete Namenssuffixe und Aggregationsbeispiele, Kommentierstil und DAX-Query-View-Workflow für Beschreibungen.
+**Aus der Guideline:** `NAM-001` bis `NAM-006`, `DAX-001` bis `DAX-008`, `DOC-002` bis `DOC-004`, `DOC-010` bis `DOC-011`, Kapitel 12 und 15.3–15.4. **Ergänzend vorgeschlagen:** konkrete Namenssuffixe und Aggregationsbeispiele, Kommentierstil und DAX-Query-View-Workflow für Beschreibungen. Quelle: v0.1 (Entwurf), 16.11.2026.
 
 **Externe Referenzen:** [Microsoft: DAX Query View](https://learn.microsoft.com/en-us/power-bi/transform-model/dax-query-view), [Microsoft: CALCULATE](https://learn.microsoft.com/en-us/dax/calculate-function-dax), [Microsoft: REMOVEFILTERS](https://learn.microsoft.com/en-us/dax/removefilters-function-dax), [Microsoft: TMDL](https://learn.microsoft.com/en-us/analysis-services/tmdl/tmdl-overview), [SQLBI: Naming](https://docs.sqlbi.com/dax-style/dax-naming-conventions), [SQLBI: Formatting](https://docs.sqlbi.com/dax-style/dax-format), [Microsoft: Data Agent](https://learn.microsoft.com/en-us/fabric/data-science/semantic-model-best-practices).

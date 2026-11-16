@@ -31,7 +31,7 @@ Copy a template for each model review and fill in the review metadata, status an
 | --- | --- |
 | Business meaning | Purpose, audience, decisions, KPI ownership and limitations |
 | Model structure | Fact grain, keys, cardinalities, filter directions, date modeling |
-| Measures and DAX | Explicit measures, filter context, totals reconciliation, formatting |
+| Measures and DAX | Explicit measures, business-oriented names, calculation versus aggregation behavior, filter scope, totals reconciliation and DAX style |
 | Data preparation and operations | Sources, freshness, transformations, storage mode, refresh and performance |
 | Security and documentation | Effective access, RLS/OLS, groups, owners, descriptions, synonym review and natural-language query testing where relevant, dependencies |
 | Text-based development and automation | PBIP/TMDL diffs, syntax checks, metadata tests and AI-generated descriptions |
@@ -71,6 +71,7 @@ This diagram illustrates traceability, **not a mandatory waterfall process**. A 
 ## Changelog
 
 - **2026-11-16:** Corrected links to the semantic-modelling resources and clarified synonym review and natural-language query testing coverage.
+- **2026-11-16:** Updated both language templates for NAM-006, DAX-008 and DOC-011, including name, aggregation, filter-scope, DAX-style and saved-Description checks.
 
 ---
 

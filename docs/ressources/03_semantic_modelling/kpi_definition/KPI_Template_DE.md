@@ -8,8 +8,9 @@
 
 | Feld | Eintrag |
 | --- | --- |
-| **Name der Kennzahl** | `[Name]` |
+| **Kanonischer Name der Kennzahl** | `[Name]` |
 | **Fachlich bestätigte Synonyme / Sprache oder Culture** | `[Alternative Bezeichnungen mit gleicher Bedeutung; Sprache/Culture und fachliche Bestätigung angeben]` |
+| **Synonymprüfung (falls relevant)** | `[Bestätigender fachlicher Owner / Datum der letzten Prüfung; mehrdeutige oder bewusst ausgeschlossene Begriffe]` |
 | **Geschäftliche Definition** | `[Was bedeutet die Kennzahl im abgestimmten fachlichen Kontext?]` |
 | **Geltungsbereich** | `[Organisationseinheiten, Geschäftsprozesse, Produkte, Zeiträume etc.]` |
 | **Berechnung** | `[Fachliche Berechnungsregel; Zähler / Nenner, Ein- und Ausschlüsse]` |

@@ -56,7 +56,7 @@ One KPI may be implemented through multiple supporting measures; not every techn
 
 ## Guideline alignment
 
-**Primary source:** Section **15.3**. Related: **DOC-002/003/004/010**, DAX and measures chapter, and Chapter **12**.
+**Primary source:** Section **15.3**. Related: **NAM-006**, **DAX-001–008**, **DOC-002/003/004/010/011**, and Chapters **6** and **12**.
 
 The current published guideline is **Semantic Modeling in Power BI, v0.1 (Draft), November 16, 2026**. Its rule classifications are proposed; these resources do not turn them into approved organizational requirements.
 
@@ -64,6 +64,7 @@ The current published guideline is **Semantic Modeling in Power BI, v0.1 (Draft)
 
 - **2026-11-16:** Added business-approved synonyms, language/culture, ambiguity, and review date to the measure template; updated alignment to DOC-010.
 - **2026-11-16:** Added calculation method, aggregation behavior, and filter-context behavior fields to both language templates; clarified business-oriented naming and the distinction between calculation method and roll-up behavior.
+- **2026-11-16:** Updated guideline alignment to include the current measure-naming, DAX-style, synonym, and Description rules.
 
 ## 📄 License & Usage
 

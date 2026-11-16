@@ -6,7 +6,7 @@
 
 ## 1. Choose a naming convention
 
-**Recommended default: readable business names with spaces, no generic `m_` / `msr_` prefix.** This aligns with existing `NAM-001`–`NAM-005`. Do not mix German and English names arbitrarily within a model; decide the naming language for its audience.
+**Recommended default: readable business names with spaces, no generic `m_` / `msr_` prefix.** This aligns with `NAM-001`–`NAM-006`. Do not mix German and English names arbitrarily within a model; decide the naming language for its audience.
 
 ### Three approaches
 
@@ -14,9 +14,9 @@
 | --- | --- | --- | --- |
 | **A. Business-first + consistent suffix (recommended)** | `Revenue`, `Revenue PY`, `Revenue vs PY`, `Revenue vs PY %` | Concise, clear in report field lists | Agree on acronyms such as `PY` |
 | **B. Full descriptive names** | `Revenue Previous Year`, `Revenue Change vs Previous Year %` | Understandable to nontechnical users | Longer names in visuals |
-| **C. Prefix every measure** | `m_Revenue`, `KPI_Revenue` | Differentiates measures in some technical workflows | Adds noise for business users; contrary to guideline preference for visible measures |
+| **C. Prefix every measure** | `m_Revenue`, `KPI_Revenue` | Differentiates measures in some technical workflows | Adds noise for business users; contrary to the guideline preference for visible measures (`NAM-005/006`) |
 
-**Scope of the recommendation:** names are *proposals*, not hardcoded semantics. The actual business definition is owned by the KPI Definition Sheet. For a model serving several languages, also manage translations and approved synonyms where supported.
+**Scope of the recommendation:** names are *proposals*, not hardcoded semantics. The actual business definition is owned by the KPI Definition Sheet. For models intended for natural-language queries, maintain validated synonyms where useful; there is no blanket requirement to assign synonyms to every model object.
 
 ### Suggested naming patterns (approach A)
 
@@ -65,7 +65,7 @@ A measure name should communicate **business meaning and any material distinctio
 3. **Use uppercase DAX functions** (`CALCULATE`, `DIVIDE`), consistent spaces and indentation, and one argument per line in complex calls.
 4. **Qualify column references with tables** (`FactSales[NetAmount]`), while using unqualified measure references (`[Revenue]`) where unambiguous.
 5. **Prefer `DIVIDE`** when a denominator can be zero or blank. Do not automatically turn missing values into zero; this is a business decision (`DAX-003`).
-6. **Review filters and date semantics** with `CALCULATE`, `ALL`, `REMOVEFILTERS`, `USERELATIONSHIP`, `TREATAS` etc. (`DAX-005`). `ALL` is not an aggregation method: specify which filters remain, which are removed, and whether the result behaves differently in totals.
+6. **Review filters and date semantics** with `CALCULATE`, `ALL`, `REMOVEFILTERS`, `USERELATIONSHIP`, `TREATAS` etc. (`DAX-005/008`). `ALL` is not an aggregation method: specify which filters remain, which are removed, and whether the result behaves differently in totals.
 7. **Avoid `FORMAT()` as general numeric formatting**: use model format strings instead (`DAX-007`). Keep numeric results numeric.
 8. **Use `SUMX`, `FILTER`, and other iterators when required**, not when a simpler expression correctly expresses the business logic (`DAX-004`).
 
@@ -191,7 +191,7 @@ table _Measures
 - [ ] Technical comments explain relevant non-obvious choices, not self-evident syntax
 - [ ] Format string and numeric data type appropriate; `%` and units consistent
 - [ ] Display folder makes the measure discoverable; technical-only measures separated or hidden as appropriate
-- [ ] Synonyms checked with business owners, including possible ambiguous names
+- [ ] Where useful for natural-language queries, synonyms are business-approved, language/culture-aware, unambiguous and reviewed when definitions or terminology change
 - [ ] Results validated at totals and detailed slices; time/BLANK/zero/filter cases tested
 - [ ] Changes to DAX, description and synonyms reviewed together
 - [ ] For Copilot / Fabric data agent use, representative natural-language questions tested in the actual target experience
@@ -212,6 +212,6 @@ behavior change and provide validation tests. Do not apply model changes.
 
 ## Reference and scope
 
-**Guideline-derived:** `NAM-001`–`NAM-005`, `DAX-001`–`DAX-007`, `DOC-002`–`DOC-004`, Section 15.3–15.4. **Supplementary proposals:** exact naming suffixes and aggregation naming examples, code-comment approach, optional `Result` variable and integration of DAX Query View `///` into a repeatable workflow.
+**Guideline-derived:** `NAM-001`–`NAM-006`, `DAX-001`–`DAX-008`, `DOC-002`–`DOC-004`, `DOC-010`–`DOC-011`, Sections 12 and 15.3–15.4. **Supplementary proposals:** exact naming suffixes and aggregation naming examples, code-comment approach, optional `Result` variable and integration of DAX Query View `///` into a repeatable workflow. Source guideline: v0.1 (Draft), November 16, 2026.
 
 **External technical references:** [Microsoft DAX Query View](https://learn.microsoft.com/en-us/power-bi/transform-model/dax-query-view), [Microsoft CALCULATE](https://learn.microsoft.com/en-us/dax/calculate-function-dax), [Microsoft REMOVEFILTERS](https://learn.microsoft.com/en-us/dax/removefilters-function-dax), [Microsoft TMDL](https://learn.microsoft.com/en-us/analysis-services/tmdl/tmdl-overview), [SQLBI naming](https://docs.sqlbi.com/dax-style/dax-naming-conventions), [SQLBI formatting](https://docs.sqlbi.com/dax-style/dax-format), [Microsoft data agent best practices](https://learn.microsoft.com/en-us/fabric/data-science/semantic-model-best-practices).

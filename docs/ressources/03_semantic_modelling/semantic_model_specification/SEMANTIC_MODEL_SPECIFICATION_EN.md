@@ -29,6 +29,8 @@
 **Out of scope:** `[Explicit boundaries]`  
 **Key assumptions:** `[Items awaiting confirmation]`
 
+**Natural-language query use (if applicable):** `[Target product and environment; intended questions]`
+
 ## 3. Data sources and dependencies
 
 | Source / data product | Contents / ownership | Freshness / quality | Transformation / dependency |
@@ -100,6 +102,7 @@
 | `[RLS/OLS in target environment]` | `[Expected]` | `[Link / result]` | `[Reviewer / Open]` |
 | `[Refresh and performance]` | `[Expected]` | `[Link / result]` | `[Reviewer / Open]` |
 | `[Dependent report regression]` | `[Expected]` | `[Link / result]` | `[Reviewer / Open]` |
+| `[Natural-language queries / expected metric mapping, if applicable]` | `[Representative questions and expected mapping in target product]` | `[Link / result]` | `[Reviewer / Open]` |
 
 **Business confirmation:** `[Who confirmed what and when?]`  
 **Technical review:** `[Who, when, evidence]`  
