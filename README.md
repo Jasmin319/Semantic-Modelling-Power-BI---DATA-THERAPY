@@ -37,5 +37,10 @@ A practical guideline for designing, developing, documenting, and maintaining re
 
 **Available languages:**
 
-- [Deutsch | Guideline herunterladen](docs/guideline/semantic-modeling-guideline-DE.pdf)
-- [English | Download Guideline](docs/guideline/semantic-modeling-guideline-EN.pdf
+- [Deutsch | Guideline herunterladen](docs/guidelines/Guideline_Semantische_Modellierung_Power_BI.pdf)
+- [English | Download Guideline](docs/guidelines/Guideline_Semantic_Modelling_Power_BI.pdf)
+
+### Articles
+
+- [Deutsch | Semantische Modelle als Grundlage für bessere Entscheidungen](<docs/articles/Semantische Modelle als Grundlage für bessere Entscheidungen .pdf>)
+- [English | Semantic Models as the Foundation for Better Decisions](docs/articles/Semantic%20Models%20as%20the%20Foundation%20for%20Better%20Decisions.pdf)
