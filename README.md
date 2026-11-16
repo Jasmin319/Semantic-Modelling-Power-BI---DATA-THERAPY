@@ -42,5 +42,7 @@ A practical guideline for designing, developing, documenting, and maintaining re
 
 ### Articles
 
+These articles explain why more data and AI do not automatically lead to better decisions. They show how semantic models, metadata, and governance create a shared understanding of business data, helping BI and AI deliver consistent, trustworthy insights.
+
 - [Deutsch | Semantische Modelle als Grundlage für bessere Entscheidungen](<docs/articles/Semantische Modelle als Grundlage für bessere Entscheidungen .pdf>)
 - [English | Semantic Models as the Foundation for Better Decisions](docs/articles/Semantic%20Models%20as%20the%20Foundation%20for%20Better%20Decisions.pdf)
