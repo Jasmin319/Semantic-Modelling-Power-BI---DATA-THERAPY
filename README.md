@@ -1,3 +1,7 @@
+![Banner](https://raw.githubusercontent.com/Jasmin319/Power-BI-Vibes/main/Z-Assets/Banner.png)
+
+![Microsoft MVP](https://img.shields.io/badge/Microsoft-MVP-5E5E5E)
+
 # Power BI Semantic Modeling
 
 **From Business Meaning to Reliable Decisions**
