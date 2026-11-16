@@ -46,3 +46,25 @@ These articles explain why more data and AI do not automatically lead to better 
 
 - [Deutsch | Semantische Modelle als Grundlage für bessere Entscheidungen](<docs/articles/Semantische Modelle als Grundlage für bessere Entscheidungen .pdf>)
 - [English | Semantic Models as the Foundation for Better Decisions](docs/articles/Semantic%20Models%20as%20the%20Foundation%20for%20Better%20Decisions.pdf)
+
+## 📄 License & Usage
+
+This repository is licensed under the MIT License.
+
+You are free to use, modify, and share the files, prompts, and workflows.
+
+Created by Jasmin Simader
+
+If you use this work, attribution is appreciated:
+- Link to this repository  
+- Mention the original source  
+- Credit the author  
+
+---
+
+## 🔗 Related content
+
+🎥 YouTube: [Power BI with AI Vibes](https://www.youtube.com/@BIVibes-JasminSimader)  
+🏠 Website: [Jasmin Simader](https://www.jasminsimader.com/)  
+👩🏻‍💻 LinkedIn: [Jasmin Simader](https://www.linkedin.com/in/jasmin-simader)  
+📝 Blog / Substack: [Substack](https://substack.com/@datatherapywithjasmin)
