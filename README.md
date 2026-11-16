@@ -6,13 +6,13 @@
 
 **From Business Meaning to Reliable Decisions**
 
-Practical guidelines and insights on semantic modeling, metadata, and data governance in Microsoft Power BI.
+Power BI environments can become harder to trust and maintain as they grow: teams use different definitions for the same metrics, models become more complex, and reports are difficult to evolve consistently. Adding more dashboards does not solve those underlying problems.
 
-This repository explores how well-designed semantic models connect business requirements with technical implementation, creating a reliable foundation for consistent analytics and informed decision-making.
+**Data Therapy starts with the business decision and meaning behind the data.** This repository shares practical guidance and tools for connecting those needs to clear KPI definitions, well-designed semantic models, useful metadata, and validation—so people and AI can rely on consistent insights.
 
-It is for Power BI semantic modelers and BI teams, as well as business stakeholders who define or validate metrics and reporting needs.
+It is for Power BI modelers and BI teams who design, document, or improve semantic models, and for business stakeholders who define, own, or validate metrics and reporting needs.
 
-The focus is on a simple principle:
+The guiding principle is:
 
 **Meaning first. Technology second.**
 
@@ -20,8 +20,8 @@ The focus is on a simple principle:
 
 ## Start here
 
-- **Designing or reviewing a semantic model?** Start with the [Semantic Modeling Guideline](docs/guidelines/Guideline_Semantic_Modelling_Power_BI.pdf) (English) or [German version](docs/guidelines/Guideline_Semantische_Modellierung_Power_BI.pdf).
-- **Clarifying a decision, dashboard need, KPI, or model documentation?** Browse the [Practical Resources & Templates](docs/ressources/README.md) overview to find the appropriate canvas, template, or checklist.
+- **New to these materials or unsure what to open?** Start with the [Practical Resources & Templates](docs/ressources/README.md) overview. If the decision or action behind a report or KPI is still unclear, begin with the [Decision Mapping Canvas](docs/ressources/01_decision_design/decision_mapping_canvas/README.md).
+- **Designing, improving, or reviewing a semantic model?** Open the [Semantic Modeling Guideline](docs/guidelines/Guideline_Semantic_Modelling_Power_BI.pdf) (English) or [German version](docs/guidelines/Guideline_Semantische_Modellierung_Power_BI.pdf).
 
 
 ## Documentation
