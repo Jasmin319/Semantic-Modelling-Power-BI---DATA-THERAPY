@@ -10,9 +10,18 @@ Practical guidelines and insights on semantic modeling, metadata, and data gover
 
 This repository explores how well-designed semantic models connect business requirements with technical implementation, creating a reliable foundation for consistent analytics and informed decision-making.
 
+It is for Power BI semantic modelers and BI teams, as well as business stakeholders who define or validate metrics and reporting needs.
+
 The focus is on a simple principle:
 
 **Meaning first. Technology second.**
+
+**Current guideline status:** Version 0.1 (Draft), last updated November 16, 2026.
+
+## Start here
+
+- **Designing or reviewing a semantic model?** Start with the [Semantic Modeling Guideline](docs/guidelines/Guideline_Semantic_Modelling_Power_BI.pdf) (English) or [German version](docs/guidelines/Guideline_Semantische_Modellierung_Power_BI.pdf).
+- **Clarifying a decision, dashboard need, KPI, or model documentation?** Browse the [Practical Resources & Templates](docs/ressources/README.md) overview to find the appropriate canvas, template, or checklist.
 
 
 ## Documentation
@@ -30,9 +39,6 @@ A practical guideline for designing, developing, documenting, and maintaining re
 - Metadata, documentation, and data lineage
 - Performance, security, and governance
 - Quality assurance and review processes
-
-**Version:** 0.1 (Draft)  
-**Last updated:** November 16, 2026
 
 **Available languages:**
 
