@@ -68,7 +68,7 @@ The current published guideline is **Semantic Modeling in Power BI, v0.1 (Draft)
 
 ## 📄 License & Usage
 
-Unless otherwise noted, the original documentation and other original content in this repository are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](../../../../LICENSE). Third-party material is excluded unless explicitly stated otherwise.
+Unless otherwise stated, the original documentation, guidelines, canvases, and templates in this repository are licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](../../../../LICENSE). Use, sharing, and adaptation for noncommercial educational and personal purposes are permitted with appropriate attribution. Commercial use requires prior written permission. Third-party trademarks, logos, and materials remain subject to their respective rights.
 
 ---
 

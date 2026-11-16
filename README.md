@@ -66,11 +66,25 @@ The [Practical Resources & Templates](docs/ressources/README.md) overview explai
 The resource overviews describe each tool in more detail and link to available English and German versions.
 
 
-## 📄 License & Usage
+## License & Usage Rights
 
-Unless otherwise noted, the original documentation and other original content in this repository are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
+© 2026 Jasmin Simader | Data Therapy
 
-You may share and adapt the licensed material, provided you credit Jasmin Simader, link to the license, and indicate if changes were made. Third-party material is excluded unless explicitly stated otherwise.
+Unless otherwise stated, the original documentation, guidelines, canvases, and templates in this repository are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.
+
+You are welcome to use, share, and adapt these resources for noncommercial educational and personal purposes, provided appropriate attribution is given.
+
+**Commercial use requires prior written permission.**
+
+This includes selling, repackaging, or commercially distributing the original materials or modified versions, including as part of paid training products or consulting deliverables.
+
+For commercial licensing inquiries, please contact:
+
+[www.jasminsimader.com](https://www.jasminsimader.com/)
+
+Full license: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+
+Third-party trademarks, logos, and materials remain subject to their respective rights.
 
 
 ## 🔗 Related content
