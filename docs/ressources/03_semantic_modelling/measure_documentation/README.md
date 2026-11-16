@@ -26,6 +26,7 @@ This resource operationalizes **Section 15.3, “Short description of a measure,
 | Unit and aggregation | Which unit, display format and aggregation logic are valid? |
 | Exceptions and pitfalls | Which edge cases or known limitations affect use? |
 | Ownership and validation | Who confirms meaning and which references/tests support correctness? |
+| Synonym governance | Which confirmed alternative terms apply by language/culture, and when were they last reviewed? |
 
 Optional implementation links, review evidence and revision fields have been added as practical aids; they are **not new guideline requirements**.
 
@@ -53,13 +54,13 @@ One KPI may be implemented through multiple supporting measures; not every techn
 
 ## Guideline alignment
 
-**Primary source:** Section **15.3**. Related: **DOC-002/003/004**, DAX and measures chapter, and Chapter **12**.
+**Primary source:** Section **15.3**. Related: **DOC-002/003/004/010**, DAX and measures chapter, and Chapter **12**.
 
-The current published guideline is **Semantic Modeling in Power BI, v0.1 (Draft), November 11, 2026**. Its rule classifications are proposed; these resources do not turn them into approved organizational requirements.
+The current published guideline is **Semantic Modeling in Power BI, v0.1 (Draft), November 16, 2026**. Its rule classifications are proposed; these resources do not turn them into approved organizational requirements.
 
 ## Changelog
 
-- **2026-11-16:** Corrected the published guideline date in this README.
+- **2026-11-16:** Added business-approved synonyms, language/culture, ambiguity, and review date to the measure template; updated alignment to DOC-010.
 
 ## 📄 License & Usage
 

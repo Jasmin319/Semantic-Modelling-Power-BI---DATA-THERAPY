@@ -2,7 +2,7 @@
 
 **Clear, business-grounded descriptions for Power BI semantic model objects.**
 
-Based on **Section 15.4**, **DOC-003** and **DOC-004** of *Semantic Modeling in Power BI*, v0.1 (Draft), November 7, 2026.
+Based on **Sections 15.3/15.4**, **DOC-003**, **DOC-004** and **DOC-010** of *Semantic Modeling in Power BI*, v0.1 (Draft), November 16, 2026.
 
 ## 1. Principle
 
@@ -52,7 +52,35 @@ Do not fill every placeholder if the detail is unknown or unnecessary for interp
 - [ ] Business claims are confirmed; unresolved items remain open.
 - [ ] Links to detailed documentation where necessary.
 
-## 6. GitHub Copilot prompt
+## 6. Linguistic metadata and synonym maintenance
+
+Synonyms associate confirmed, business-equivalent terms with a model object. They supplement the canonical model name and Description, but do not replace the definition or its business approval.
+
+- Add synonyms only after confirmation by the accountable business owner.
+- Record the language/culture when terms are language-dependent.
+- Resolve or exclude ambiguous and conflicting terms.
+- Review synonyms again when the definition or object name changes; updating the Description alone is not enough.
+- For models intended for natural-language queries, test representative questions using alternate terms in the target environment and document the expected measure mapping.
+
+Microsoft names semantic-model synonyms as metadata used for DAX query generation by Fabric data agents ([Semantic model best practices for data agent](https://learn.microsoft.com/en-us/fabric/data-science/semantic-model-best-practices)). Power BI Copilot documentation describes “Prep data for AI” and descriptions, but does not establish that the `Synonyms` property or Linguistic Schema is used by every Copilot capability ([FAQ: Preparing data for AI](https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-prepare-data-ai-faq)). Validate behavior in the target product.
+
+**Example**
+
+**CANONICAL MEASURE:** `Revenue`
+
+**BUSINESS-APPROVED SYNONYMS:** `Sales`, `Total Revenue`, `Umsatz`
+
+**EXAMPLE QUESTIONS:**
+
+- “Show me revenue by month.”
+- “Show me sales by month.”
+- “Zeige mir den Umsatz pro Monat.”
+
+All three questions should resolve to the same measure only if the terms have the same revenue definition in the organization. Test the actual mapping; synonyms do not guarantee a correct answer.
+
+In PBIP projects using TMDL, the Linguistic Schema can be versioned in a culture file under `definition/cultures`. TMDL uses one file per culture; the exact project structure depends on the format ([TMDL overview](https://learn.microsoft.com/en-us/analysis-services/tmdl/tmdl-overview?view=sql-analysis-services-2025)).
+
+## 7. GitHub Copilot prompt
 
 ```text
 Draft a short Power BI model-object Description.
@@ -72,7 +100,7 @@ Confirmed facts: [Paste here]
 
 Review Copilot output with the relevant business owner before using it as an authoritative definition.
 
-## 7. Related documentation
+## 8. Related documentation
 
 - [Table Documentation](../table_documentation/README.md): source, keys, grain, relationships and history.
 - [Measure Documentation](../measure_documentation/README.md): DAX, dependencies, filters and tests.

@@ -6,7 +6,7 @@
 
 **Write clear, concise descriptions for Power BI semantic model objects.**
 
-This resource makes **Section 15.4, “Description text for model objects,”** actionable, together with guideline rules **DOC-003** (short descriptions versus detailed documentation) and **DOC-004** (maintaining metadata on model objects).
+This resource makes **Section 15.4, “Description text for model objects,”** actionable, together with guideline rules **DOC-003** (short descriptions versus detailed documentation), **DOC-004** (maintaining metadata on model objects), and **DOC-010** (maintaining validated synonyms).
 
 > **Describe what is known. Do not manufacture business meaning.**
 
@@ -15,7 +15,7 @@ This resource makes **Section 15.4, “Description text for model objects,”** 
 - [Deutsch | Leitfaden für Description-Texte](METADATA_DESCRIPTION_GUIDE_DE.md)
 - [English | Metadata Description Guide](METADATA_DESCRIPTION_GUIDE_EN.md)
 
-Both guides contain compact sentence structures, clearly **illustrative examples**, anti-patterns, a review checklist, and safe Copilot prompts.
+Both guides contain compact sentence structures, clearly **illustrative examples**, synonym-maintenance guidance, anti-patterns, a review checklist, and safe Copilot prompts.
 
 ## Where a description belongs
 
@@ -23,7 +23,7 @@ Both guides contain compact sentence structures, clearly **illustrative examples
 | --- | --- | --- |
 | **Table / measure Description property** | Explain the meaning of an object quickly while exploring the model | Short, neutral and factual |
 | [**Table Documentation**](../table_documentation/README.md) | Trace grain, source, keys, relationships, history and limitations | Detailed, as needed |
-| [**Measure Documentation**](../measure_documentation/README.md) | Trace calculation, DAX, dependencies, filter logic and tests | Detailed, as needed |
+| [**Measure Documentation**](../measure_documentation/README.md) | Trace calculation, DAX, dependencies, filter logic, approved synonyms and tests | Detailed, as needed |
 | [**KPI Definition Sheet**](../kpi_definition/README.md) | Record agreed business definition and accountability | Business-approved definition |
 
 ## Key writing principles
@@ -48,13 +48,13 @@ You can ask Copilot to **draft** descriptions using only verified facts supplied
 
 ## Guideline alignment
 
-**Primary source:** Section **15.4** and **DOC-003/004**. Example scenarios and Copilot prompts in these guides are **supplementary illustrations**, not verbatim material from the guideline.
+**Primary source:** Sections **15.3/15.4** and **DOC-003/004/010**. Example scenarios and Copilot prompts in these guides are **supplementary illustrations**, not verbatim material from the guideline.
 
-The current published guideline is **Semantic Modeling in Power BI, v0.1 (Draft), November 11, 2026**. Its rule classifications are proposed; these resources do not turn them into approved organizational requirements.
+The current published guideline is **Semantic Modeling in Power BI, v0.1 (Draft), November 16, 2026**. Its rule classifications are proposed; these resources do not turn them into approved organizational requirements.
 
 ## Changelog
 
-- **2026-11-16:** Corrected the published guideline date in this README.
+- **2026-11-16:** Added linguistic metadata and synonym maintenance guidance, including product-specific validation for Copilot and Fabric data agents.
 
 ## 📄 License & Usage
 

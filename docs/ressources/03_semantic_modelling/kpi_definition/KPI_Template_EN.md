@@ -2,14 +2,14 @@
 
 **Business meaning before calculation. Ownership before publication.**
 
-> **Note:** This template is based on Section 15.1, “Meaning sheet for a key metric,” of the *Power BI Semantic Modeling Guideline*, Version 0.1 (Draft), November 11, 2026. Complete all blank fields or mark them as “not applicable.” This is a template, not an already approved KPI definition.
+> **Note:** This template is based on Section 15.1, “Definition Sheet for a Key Business Measure,” of the *Power BI Semantic Modeling Guideline*, Version 0.1 (Draft), November 16, 2026. Complete all blank fields or mark them as “not applicable.” This is a template, not an already approved KPI definition.
 
 ## 1. Business KPI definition
 
 | Field | Entry |
 | --- | --- |
 | **KPI name** | `[Name]` |
-| **Synonyms / alternative names** | `[Names by which the KPI is used or searched for]` |
+| **Business-approved synonyms / language or culture** | `[Alternative terms with the same meaning; record language/culture and business confirmation]` |
 | **Business definition** | `[What does the KPI mean in the agreed business context?]` |
 | **Scope** | `[Organizational units, business processes, products, periods, etc.]` |
 | **Calculation** | `[Business calculation rule; numerator / denominator, inclusions and exclusions]` |

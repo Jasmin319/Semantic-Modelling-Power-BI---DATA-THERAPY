@@ -32,7 +32,7 @@ A practical guideline for designing, developing, documenting, and maintaining re
 - Quality assurance and review processes
 
 **Version:** 0.1 (Draft)  
-**Last updated:** November 11, 2026
+**Last updated:** November 16, 2026
 
 **Available languages:**
 

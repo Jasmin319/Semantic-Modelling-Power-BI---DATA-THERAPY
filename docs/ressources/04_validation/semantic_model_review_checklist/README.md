@@ -16,7 +16,7 @@ Its guiding principle is:
 
 Use the checklist to record **business and technical checks**, supporting evidence, review findings, and exceptions. The resource also includes the production release conditions from Section 12.2 and an exception log aligned with Section 13 of the guideline.
 
-**Guideline version:** 0.1 (Draft), November 7, 2026. The proposed MUST/SHOULD/MAY classifications are **not automatically binding organizational standards**.
+**Guideline version:** 0.1 (Draft), November 16, 2026. The proposed MUST/SHOULD/MAY classifications are **not automatically binding organizational standards**.
 
 ## Download the templates
 
@@ -33,14 +33,14 @@ Copy a template for each model review and fill in the review metadata, status an
 | Model structure | Fact grain, keys, cardinalities, filter directions, date modeling |
 | Measures and DAX | Explicit measures, filter context, totals reconciliation, formatting |
 | Data preparation and operations | Sources, freshness, transformations, storage mode, refresh and performance |
-| Security and documentation | Effective access, RLS/OLS, groups, owners, descriptions, dependencies |
+| Security and documentation | Effective access, RLS/OLS, groups, owners, descriptions, synonym review and natural-language query testing where relevant, dependencies |
 | Text-based development and automation | PBIP/TMDL diffs, syntax checks, metadata tests and AI-generated descriptions |
 | Release readiness | Business confirmation, security, performance, dependent reports and approvals |
 
 ## Suggested workflow
 
 1. **Define review scope.** New production models need business and technical review. For changes to existing models, adjust depth to risk and impact (guideline `QA-001`).
-2. **Link the inputs.** Reference the [Semantic Model Specification](../../03_semantic_modeling/semantic_model_specification/README.md) and the [KPI Definition Sheet](../../03_semantic_modeling/kpi_definition/README.md), where available.
+2. **Link the inputs.** Reference the [Semantic Model Specification](../../03_semantic_modelling/semantic_model_specification/README.md) and the [KPI Definition Sheet](../../03_semantic_modelling/kpi_definition/README.md), where available.
 3. **Review each applicable check.** Mark `Pass`, `Fail`, `Open`, or `N/A`, recording traceable evidence. Explain `N/A`.
 4. **Record findings and exceptions.** An exception requires documented rationale, alternatives, risks, approval, and a review date as described in guideline Section 13.
 5. **Verify release conditions separately.** The production release section is distinct from the review findings.
@@ -68,6 +68,9 @@ This diagram illustrates traceability, **not a mandatory waterfall process**. A 
 - Critical issues must be fixed or handled through an approved exception before release, following the organizational process.
 - Do not silently mark untested criteria as passed.
 
+## Changelog
+
+- **2026-11-16:** Corrected links to the semantic-modelling resources and clarified synonym review and natural-language query testing coverage.
 
 ---
 

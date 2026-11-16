@@ -10,6 +10,9 @@
 | --- | --- |
 | Measure name | `[Power BI name]` |
 | Business definition | `[Brief meaning or link to confirmed KPI Definition Sheet]` |
+| Business-approved synonyms by language/culture | `[Equivalent terms only; record language/culture and business confirmation]` |
+| Ambiguities / deliberately excluded terms | `[Conflicts, differing definitions, or mappings that must not be used]` |
+| Synonym review | `[Confirming owner / date last reviewed]` |
 | Supported decision | `[Business question / DEC ID or Not applicable]` |
 | DAX expression | `See code block below` |
 | Brief technical description | `[Calculation explained in plain language]` |

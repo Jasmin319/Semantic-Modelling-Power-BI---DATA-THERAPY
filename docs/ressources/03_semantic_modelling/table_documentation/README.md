@@ -51,7 +51,7 @@ The worksheet also offers **optional technical and review fields** to connect th
 
 **Primary source:** Section **15.2**. Related topics: **MOD-002–MOD-005**, **DOC-001**, **DOC-003/004**, and Chapter **12**.
 
-The current published guideline is **Semantic Modeling in Power BI, v0.1 (Draft), November 11, 2026**. Its rule classifications are proposed; these resources do not turn them into approved organizational requirements.
+The current published guideline is **Semantic Modeling in Power BI, v0.1 (Draft), November 16, 2026**. Its rule classifications are proposed; these resources do not turn them into approved organizational requirements.
 
 ## Changelog
 

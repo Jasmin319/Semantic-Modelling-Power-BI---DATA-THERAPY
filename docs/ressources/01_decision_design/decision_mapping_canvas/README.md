@@ -63,15 +63,14 @@ The canvas helps **clarify requirements**. It does not itself approve KPI defini
 
 The Decision Mapping Canvas and Dashboard Canvas are complementary, **not mandatory sequential gates**. A semantic model may serve several decisions and several reports.
 
-## Template
+## Canvas
 
-Add the Decision Mapping Canvas PDF to this folder and link it here, for example:
+- [Deutsch | Decision Mapping Canvas herunterladen (PNG)](./Decison%20Mapping%20Canvas_DE.png)
+- [English | Download the Decision Mapping Canvas (PNG)](./Decison%20Mapping%20Canvas_EN.png)
 
-[Deutsch | Download the Decision Mapping Canvas](https://github.com/Jasmin319/Semantic-Modelling-Power-BI---DATA-THERAPY/blob/main/docs/ressources/01_decision_design/decision_mapping_canvas/Decison%20Mapping%20Canvas_DE.png)
+## Changelog
 
-[English | Download the Decision Mapping Canvas](https://github.com/Jasmin319/Semantic-Modelling-Power-BI---DATA-THERAPY/blob/main/docs/ressources/01_decision_design/decision_mapping_canvas/Decison%20Mapping%20Canvas_EN.png)
-
-> The link above is an example only. Replace it with the actual PDF filename after adding the file.
+- **2026-11-16:** Replaced the outdated PDF placeholder instructions with links to the available German and English canvas images.
 
 ## 🔗 Related content
 

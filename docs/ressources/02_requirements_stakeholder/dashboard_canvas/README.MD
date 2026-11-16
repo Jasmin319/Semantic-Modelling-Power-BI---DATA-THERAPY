@@ -68,15 +68,14 @@ The canvas does **not** replace a detailed KPI definition, data contract, semant
 
 The two canvases can be used separately or together. A reusable semantic model may support multiple dashboards, so **one dashboard canvas should not be treated as the specification for an entire shared semantic model**.
 
-## Template
+## Canvas
 
-The Dashboard Canvas is available as a **guided version** with prompts and a **blank version** for workshop use.
+- [Deutsch | Dashboard Canvas herunterladen (PNG)](./Dashboard%20Canvas%20DE.png)
+- [English | Download the Dashboard Canvas (PNG)](./Dashboard%20Canvas%20EN.png)
 
-Add the PDF to this folder and link it here, for example:
+## Changelog
 
-`[Download the Dashboard Canvas](./dashboard-canvas.pdf)`
-
-> The link above is an example only. Replace it with the actual PDF filename after adding the file.
+- **2026-11-16:** Replaced the outdated guided/blank PDF placeholder instructions with links to the available German and English canvas images.
 
 ## Author and usage
 

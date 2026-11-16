@@ -10,6 +10,9 @@
 | --- | --- |
 | Measure-Name | `[Name in Power BI]` |
 | Fachliche Definition | `[Kurzdefinition oder Link zum bestätigten KPI-Steckbrief]` |
+| Fachlich bestätigte Synonyme je Sprache/Culture | `[Nur gleichbedeutende Begriffe; Sprache/Culture und fachliche Bestätigung]` |
+| Mehrdeutigkeiten / bewusst ausgeschlossene Begriffe | `[Konflikte, abweichende Definitionen oder nicht zulässige Zuordnungen]` |
+| Synonymprüfung | `[Bestätigender Owner / Datum der letzten Prüfung]` |
 | Unterstützte Entscheidung | `[Business Question / DEC-ID oder Nicht zutreffend]` |
 | DAX-Ausdruck | `Siehe Codeblock unten` |
 | Technische Kurzbeschreibung | `[Berechnungsweise in verständlichen Worten]` |

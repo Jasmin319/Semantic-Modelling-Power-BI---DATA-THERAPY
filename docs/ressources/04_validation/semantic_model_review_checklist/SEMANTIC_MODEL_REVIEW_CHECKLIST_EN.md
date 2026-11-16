@@ -2,7 +2,7 @@
 
 **Review before release: business-valid, technically sound, and traceable.**
 
-> Based on Section 12.1 (Review checklist) of *Semantic Modeling in Power BI*, Version 0.1 (Draft), November 7, 2026. The checklist follows the source review points; tracking columns are supplemental working fields.
+> Based on Section 12.1 (Review checklist) of *Semantic Modeling in Power BI*, Version 0.1 (Draft), November 16, 2026. The checklist follows the source review points; tracking columns are supplemental working fields.
 
 ## 1. Review context
 
@@ -78,6 +78,9 @@ Link each review point to traceable evidence (test report, screenshot, query, ti
 | R-27 | Changes to model metadata and definitions have been reviewed with a traceable record. | `Open` | `[Link / note]` |
 | R-28 | Dependent reports have been regression-tested. | `Open` | `[Link / note]` |
 | R-29 | Open exceptions are documented and approved. | `Open` | `[Link / note]` |
+| R-34 | Common business alternatives have been reviewed for relevant model objects and maintained as synonyms where useful. | `Open` | `[Link / note]` |
+| R-35 | Existing synonyms are current, unambiguous, and consistent with confirmed metric definitions. | `Open` | `[Link / note]` |
+| R-36 | For models intended for Copilot or data agents, representative natural-language questions using alternative terms have been tested and the expected mapping documented. | `Open` | `[Link / note]` |
 
 ### Text-based development and automation
 

@@ -2,14 +2,14 @@
 
 **Bedeutung vor Berechnung. Verantwortung vor Veröffentlichung.**
 
-> **Hinweis:** Diese Vorlage basiert auf Kapitel 15.1 „Bedeutungsblatt für eine zentrale Kennzahl“ der Guideline *Semantische Modellierung in Power BI*, Version 0.1 (Entwurf), 11.11.2026. Leere Felder sind bewusst auszufüllen oder als „nicht zutreffend“ zu kennzeichnen. Es handelt sich nicht um eine bereits freigegebene KPI-Definition.
+> **Hinweis:** Diese Vorlage basiert auf Kapitel 15.1 „Bedeutungsblatt für eine zentrale Kennzahl“ der Guideline *Semantische Modellierung in Power BI*, Version 0.1 (Entwurf), 16.11.2026. Leere Felder sind bewusst auszufüllen oder als „nicht zutreffend“ zu kennzeichnen. Es handelt sich nicht um eine bereits freigegebene KPI-Definition.
 
 ## 1. Fachliche KPI-Definition
 
 | Feld | Eintrag |
 | --- | --- |
 | **Name der Kennzahl** | `[Name]` |
-| **Synonyme / alternative Bezeichnungen** | `[Bezeichnungen, unter denen die Kennzahl verwendet oder gesucht wird]` |
+| **Fachlich bestätigte Synonyme / Sprache oder Culture** | `[Alternative Bezeichnungen mit gleicher Bedeutung; Sprache/Culture und fachliche Bestätigung angeben]` |
 | **Geschäftliche Definition** | `[Was bedeutet die Kennzahl im abgestimmten fachlichen Kontext?]` |
 | **Geltungsbereich** | `[Organisationseinheiten, Geschäftsprozesse, Produkte, Zeiträume etc.]` |
 | **Berechnung** | `[Fachliche Berechnungsregel; Zähler / Nenner, Ein- und Ausschlüsse]` |

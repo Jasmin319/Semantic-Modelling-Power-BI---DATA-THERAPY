@@ -2,7 +2,7 @@
 
 **Prüfung vor Freigabe: fachlich, technisch und nachvollziehbar.**
 
-> Basierend auf Kapitel 12.1 (Review-Checkliste) der Guideline *Semantische Modellierung in Power BI*, Version 0.1 (Entwurf), 07.11.2026. Die Prüfpunkte sind aus der Guideline übernommen bzw. sinngemäß in prüfbare Zeilen überführt. Zusätzliche Erfassungsfelder sind als Arbeitshilfe ergänzt.
+> Basierend auf Kapitel 12.1 (Review-Checkliste) der Guideline *Semantische Modellierung in Power BI*, Version 0.1 (Entwurf), 16.11.2026. Die Prüfpunkte sind aus der Guideline übernommen bzw. sinngemäß in prüfbare Zeilen überführt. Zusätzliche Erfassungsfelder sind als Arbeitshilfe ergänzt.
 
 ## 1. Review-Kontext
 
@@ -78,6 +78,9 @@ Pro Prüffall einen nachvollziehbaren Nachweis (Link, Testbericht, Screenshot, Q
 | R-27 | Änderungen an Modellmetadaten und Definitionen sind nachvollziehbar überprüft. | `Open` | `[Link / Hinweis]` |
 | R-28 | Abhängige Berichte wurden auf Regressionen geprüft. | `Open` | `[Link / Hinweis]` |
 | R-29 | Offene Ausnahmen sind dokumentiert und genehmigt. | `Open` | `[Link / Hinweis]` |
+| R-34 | Für relevante Modellobjekte wurden gebräuchliche fachliche Alternativbegriffe geprüft und, soweit sinnvoll, als Synonyme gepflegt. | `Open` | `[Link / Hinweis]` |
+| R-35 | Vorhandene Synonyme sind aktuell, eindeutig und mit den bestätigten Kennzahlendefinitionen vereinbar. | `Open` | `[Link / Hinweis]` |
+| R-36 | Bei für Copilot oder Data Agents vorgesehenen Modellen wurden repräsentative natürlichsprachliche Fragen mit Alternativbegriffen getestet und die erwartete Zuordnung dokumentiert. | `Open` | `[Link / Hinweis]` |
 
 ### Textbasierte Entwicklung und Automatisierung
 

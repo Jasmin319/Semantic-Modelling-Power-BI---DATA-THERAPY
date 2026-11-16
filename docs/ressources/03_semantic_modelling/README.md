@@ -16,7 +16,7 @@ Their guiding principle is:
 
 A KPI definition, a model design, detailed object documentation, and short model descriptions answer different questions. Together, they connect business meaning to model design and implementation without replacing one another.
 
-These are practical supporting resources, not additional mandatory standards. The guideline is currently a draft.
+These are practical supporting resources, not additional mandatory standards. The current published guideline is **Version 0.1 (Draft), November 16, 2026**.
 
 ## Resources
 
@@ -82,6 +82,7 @@ See the individual resource overviews for further guidance.
 ## Changelog
 
 - **2026-11-16:** Updated this overview to include table documentation, measure documentation, and the metadata description guide.
+- **2026-11-16:** Aligned the guideline status and date with the current published version.
 
 ## Author and usage
 
