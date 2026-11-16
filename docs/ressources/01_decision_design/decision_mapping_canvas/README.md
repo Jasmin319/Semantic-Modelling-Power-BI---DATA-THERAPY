@@ -67,12 +67,13 @@ The Decision Mapping Canvas and Dashboard Canvas are complementary, **not mandat
 
 Add the Decision Mapping Canvas PDF to this folder and link it here, for example:
 
-`[Download the Decision Mapping Canvas](./decision-mapping-canvas.pdf)`
+[Deutsch | Download the Decision Mapping Canvas](https://github.com/Jasmin319/Semantic-Modelling-Power-BI---DATA-THERAPY/blob/main/docs/ressources/01_decision_design/decision_mapping_canvas/Decison%20Mapping%20Canvas_DE.png)
 
 > The link above is an example only. Replace it with the actual PDF filename after adding the file.
 
-## Author and usage
+## 🔗 Related content
 
-**Data Therapy · Jasmin Simader**
-
-All rights reserved unless otherwise specified. Check the repository's licensing information before reusing or redistributing the template.
+🎥 YouTube: [Power BI with AI Vibes](https://www.youtube.com/@BIVibes-JasminSimader)  
+🏠 Website: [Jasmin Simader](https://www.jasminsimader.com/)  
+👩🏻‍💻 LinkedIn: [Jasmin Simader](https://www.linkedin.com/in/jasmin-simader)  
+📝 Blog / Substack: [Substack](https://substack.com/@datatherapywithjasmin)
